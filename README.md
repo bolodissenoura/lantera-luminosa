@@ -1,8 +1,8 @@
-![image](https://github.com/bolodissenoura/henrique_vinhola/assets/107739590/a50b0132-7dbc-4fb6-a018-7167a3fae15c)
 
-> Status: Completed ✅
 
-## This is a portfolio for my friend Henrique Vinhola.
+> Status: In Progress 🔨
+
+## This is a portfolio for ONG Lanterna Luminosa.
 
 ## Technologies Used: 
 
