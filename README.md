@@ -1,5 +1,3 @@
-
-
 > Status: In Progress 🔨
 
 ## This is a portfolio for ONG Lanterna Luminosa.
