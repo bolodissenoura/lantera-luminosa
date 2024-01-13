@@ -24,7 +24,7 @@ const Home = () => {
       src="/img/wave.svg"
       width={1440}
       height={389}
-      className="absolute w-full z-0"
+      className="absolute w-full"
       alt="Descrição da Imagem"
     />
       <SectionTitle

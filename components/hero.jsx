@@ -9,7 +9,7 @@ const Hero = () => {
     <div className="w-full bg-green pt-12 ">
     <Container className="flex flex-wrap ">
         <div className="flex items-center w-full lg:w-1/2">
-          <div className="max-w-3xl pl-40  mb-8">
+          <div className="max-w-3xl xl:pl-40  mb-8">
             <h1 className="text-5xl font-primary leading-snug text-center tracking-tight text-white xl:text-left  ">
             Você não está sozinha.
             </h1>
@@ -23,7 +23,7 @@ const Hero = () => {
             />
           </div>
         </div>
-        <div className="flex items-center pr-32 justify-end w-full lg:w-1/2">
+        <div className="flex items-center xl:pr-32 justify-end w-full lg:w-1/2">
             <Image
               src="/img/circlewoman.svg"
               width="432"
