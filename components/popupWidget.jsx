@@ -112,7 +112,7 @@ const PopupWidget = () => {
               leave="transition duration-200 transform ease"
               leaveTo="opacity-0 translate-y-5"
             >
-              <Disclosure.Panel className=" flex flex-col  overflow-hidden left-0 h-full w-full sm:w-[350px] min-h-[250px] sm:h-[600px] border border-gray-300 dark:border-gray-800 bg-white shadow-2xl rounded-md sm:max-h-[calc(100vh-120px)]">
+              <Disclosure.Panel className=" flex flex-col  overflow-hidden left-0 h-full w-full sm:w-[350px] min-h-[250px] sm:h-[600px] border border-gray-300 bg-white shadow-2xl rounded-md sm:max-h-[calc(100vh-120px)]">
                 <div className="flex flex-col items-center justify-center h-32 p-5 bg-[#e78045]">
                   <h3 className="text-lg text-white">Como podemos ajudar?</h3>
                   <p className="text-white opacity-50">
@@ -147,7 +147,7 @@ const PopupWidget = () => {
                       <div className="mb-4">
                         <label
                           htmlFor="full_name"
-                          className="block mb-2 text-sm text-gray-600 dark:text-gray-400"
+                          className="block mb-2 text-sm text-gray-600"
                         >
                           Nome Completo
                         </label>
@@ -175,7 +175,7 @@ const PopupWidget = () => {
                       <div className="mb-4">
                         <label
                           htmlFor="email"
-                          className="block mb-2 text-sm text-gray-600 dark:text-gray-400"
+                          className="block mb-2 text-sm text-gray-600"
                         >
                           E-mail
                         </label>
@@ -206,7 +206,7 @@ const PopupWidget = () => {
                       <div className="mb-4">
                         <label
                           htmlFor="number"
-                          className="block mb-2 mt-4 text-sm text-gray-600 dark:text-gray-400"
+                          className="block mb-2 mt-4 text-sm text-gray-600"
                         >
                           Telefone / Whatsapp
                         </label>
@@ -234,7 +234,7 @@ const PopupWidget = () => {
                       <div className="mb-4">
                         <label
                           htmlFor="message"
-                          className="block mb-2 text-sm text-gray-600 dark:text-gray-400"
+                          className="block mb-2 text-sm text-gray-600"
                         >
                           Sua Mensagem
                         </label>
