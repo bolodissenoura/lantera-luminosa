@@ -2,12 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @layer components {
   .custom-input::-webkit-outer-spin-button,
   .custom-input::-webkit-inner-spin-button {
     /* display: none; <- Crashes Chrome on hover */
     -webkit-appearance: none;
-    margin: 0; 
+    margin: 0;
   }
 }
