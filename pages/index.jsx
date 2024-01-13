@@ -11,6 +11,7 @@ import Testimonials from "../components/testimonials";
 import Cta from "../components/cta";
 import Faq from "../components/faq";
 import PopupWidget from "../components/popupWidget";
+import Image from "next/image";
 
 
 const Home = () => {
@@ -19,7 +20,15 @@ const Home = () => {
       <Head />
       <Navbar />
       <Hero />
+      <Image
+      src="/img/wave.svg"
+      width={1440}
+      height={389}
+      className="absolute w-full z-0"
+      alt="Descrição da Imagem"
+    />
       <SectionTitle
+        titleClassName="pt-[280px]"
         title="Sobre nós"
         paragraph1="O Instituto Lanterna Luminosa é uma Associação Civil de Terceiro Setor
           dedicada ao combate do abuso contra mulheres e seus filhos. Nosso

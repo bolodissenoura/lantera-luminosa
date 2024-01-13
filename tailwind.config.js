@@ -16,8 +16,10 @@ module.exports = {
       },
     },
     fontFamily: {
-      sans: ["Inter", ...defaultTheme.fontFamily.sans],
-      stock: [defaultTheme.fontFamily.sans],
+      primary: ["Plus Jakarta Sans"],
+      secondary: ['"Open Sans"'],
+      tertiary: ["Bebas Neue"],
+      fourth: ["Manrope"]
     },
   },
   variants: {

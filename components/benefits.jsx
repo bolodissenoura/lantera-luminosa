@@ -29,11 +29,11 @@ const Benefits = (props) => {
           }`}>
           <div>
             <div className="flex flex-col w-full mt-4">
-              <h3 className="max-w-2xl mt-3 text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl ">
+              <h3 className="max-w-2xl mt-3 text-3xl font-primary leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl ">
                 {data.title}
               </h3>
 
-              <p className="max-w-2xl py-4 text-lg leading-normal text-gray-500 lg:text-xl xl:text-xl">
+              <p className="max-w-2xl py-4 text-lg font-primary leading-normal text-gray-500 lg:text-xl xl:text-xl">
                 {data.desc}
               </p>
             </div>
@@ -54,16 +54,16 @@ const Benefits = (props) => {
 function Benefit(props) {
   return (
     <div className="flex items-start mt-8 space-x-3">
-        <div className="flex items-center justify-center flex-shrink-0 mt-1 bg-[#e78045] rounded-md w-11 h-11 ">
+        <div className="flex items-center justify-center flex-shrink-0 mt-1 bg-green rounded-md w-11 h-11 ">
           {React.cloneElement(props.icon, {
             className: "w-7 h-7 text-indigo-50",
           })}
         </div>
         <div>
-          <h4 className="text-xl font-medium text-gray-800">
+          <h4 className="text-xl font-primary text-gray-800">
             {props.title}
           </h4>
-          <p className="mt-1 text-gray-500">
+          <p className="mt-1 font-primary text-gray-500">
             {props.children}
           </p>
         </div>

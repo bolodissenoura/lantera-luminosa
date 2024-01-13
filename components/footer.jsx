@@ -5,11 +5,7 @@ import Container from "./container";
 
 export default function Footer() {
   const navigation = [
-    "Product",
-    "Features",
-    "Pricing",
-    "Company",
-    "Blog",
+    "Idealizadora"
   ];
   const legal = ["Terms", "Privacy", "Legal"];
   return (
@@ -21,7 +17,7 @@ export default function Footer() {
               {" "}
               <Link href="/" className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
                     <Image
-                      src="/img/logolanterna.png"
+                      src="/img/logolanterna.svg"
                       alt="N"
                       width="128"
                       height="128"
@@ -38,7 +34,7 @@ export default function Footer() {
           <div>
             <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
               {navigation.map((item, index) => (
-                <Link key={index} href="/" className="w-full px-4 py-2 text-gray-500 rounded-md  hover:text-[#e78045] focus:text-[#e78045] focus:bg-indigo-100 focus:outline-none">                 
+                <Link key={index} href="/" className="w-full px-4 py-2 text-gray-500 rounded-md  hover:text-[#f1e37e] focus:bg-[#eee59f] focus:bg-indigo-100 focus:outline-none">                 
                     {item}
                 </Link>
               ))}
@@ -47,7 +43,7 @@ export default function Footer() {
           <div>
             <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
               {legal.map((item, index) => (
-                <Link key={index} href="/" className="w-full px-4 py-2 text-gray-500 rounded-md  hover:text-[#e78045] focus:text-[#e78045] focus:bg-indigo-100 focus:outline-none">      
+                <Link key={index} href="/" className="w-full px-4 py-2 text-gray-500 rounded-md  hover:text-[#f1e37e] focus:bg-[#eee59f] focus:bg-indigo-100 focus:outline-none">      
                     {item}
                 </Link>
               ))}
@@ -75,7 +71,7 @@ export default function Footer() {
         </div>
 
         <div className="my-10 text-sm text-center text-gray-600 dark:text-gray-400">
-          Copyright © {new Date().getFullYear()}.
+          Copyright © {new Date().getFullYear()}. Instituto Lanterna Luminosa
         </div>
       </Container>
     </div>

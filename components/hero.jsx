@@ -1,35 +1,37 @@
 import Image from "next/image";
 import Container from "./container";
-import heroImg from "../public/img/hero.jpg";
-import { useTranslationContext } from "./TranslationContext";
+import {
+  ArrowDownIcon
+} from "@heroicons/react/24/solid";
 
 const Hero = () => {
-  const { t } = useTranslationContext();
   return (
-    <div className="bg-gradient-to-br from-[#e78045] to-[#ffc18e]">
-    <Container className="flex flex-wrap">
+    <div className="w-full bg-green pt-12 ">
+    <Container className="flex flex-wrap ">
         <div className="flex items-center w-full lg:w-1/2">
-          <div className="max-w-3xl mb-8">
-            <h1 className="text-4xl font-bold leading-snug text-center tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:text-left xl:leading-tight ">
-              Instituto Lanterna Luminosa
+          <div className="max-w-3xl pl-40  mb-8">
+            <h1 className="text-5xl font-primary leading-snug text-center tracking-tight text-white xl:text-left  ">
+            Você não está sozinha.
             </h1>
-            <p className="py-12 text-xl leading-normal text-black lg:text-xl xl:text-2xl xl:leading-relaxed">
-            {t('bem-vindo')}
+            <p className="text-[16px] pb-[12px] font-primary text-center leading-normal text-yellow">
+            Conheça o Instituto Lanterna Luminosa: a luz que liberta as mulheres.
             </p>
-          </div>
-        </div>
-        <div className="flex items-center justify-center w-full lg:w-1/2">
-          <div className="">
-            <Image
-              src={heroImg}
-              width="500"
-              height="500"
-              className={"object-cover rounded-xl"}
-              alt="Hero Illustration"
-              loading="eager"
-              placeholder="blur"
+            <ArrowDownIcon 
+            width="27"
+            height="27"
+            className="text-yellow mx-auto"
             />
           </div>
+        </div>
+        <div className="flex items-center pr-32 justify-end w-full lg:w-1/2">
+            <Image
+              src="/img/circlewoman.svg"
+              width="432"
+              height="432"
+              className={"object-cover"}
+              alt="CircleWoman"
+              loading="eager"
+            />
         </div>
       </Container>
       </div>
