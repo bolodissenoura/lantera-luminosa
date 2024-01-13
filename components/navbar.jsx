@@ -17,7 +17,7 @@ const Navbar = () => {
           {({ open }) => (
             <div className="flex flex-wrap items-center justify-between w-full lg:w-auto">
               <Link href="/">
-                <span className="flex items-center pl-16 text-2xl font-medium text-yellow ">
+                <span className="flex items-center xl:pl-16 text-2xl font-medium text-yellow ">
                   <span>
                     <Image
                       src="/img/logolanterna.svg"
