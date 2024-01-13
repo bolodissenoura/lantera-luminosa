@@ -302,7 +302,7 @@ const PopupWidget = () => {
                       <svg
                         width="60"
                         height="60"
-                        className="text-green-300"
+                        className="text-green"
                         viewBox="0 0 100 100"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
@@ -313,12 +313,12 @@ const PopupWidget = () => {
                           strokeWidth="3"
                         />
                       </svg>
-                      <h3 className="py-5 text-xl text-green-500">
+                      <h3 className="py-5 text-xl text-green">
                         Mensagem enviada com sucesso!
                       </h3>
                       <p className="text-gray-700 md:px-3">{Message}</p>
                       <button
-                        className="mt-6 text-indigo-600 focus:outline-none"
+                        className="mt-6 text-green focus:outline-none"
                         onClick={() => reset()}
                       >
                         Voltar
