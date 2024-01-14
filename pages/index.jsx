@@ -24,11 +24,11 @@ const Home = () => {
       src="/img/wave.svg"
       width={1440}
       height={389}
-      className="w-full"
-      alt="Descrição da Imagem"
+      className="absolute w-full"
+      alt="WaveImg"
     />
       <SectionTitle
-        titleClassName="pt-[280px]"
+        titleClassName="pt-[300px]"
         title="Sobre nós"
         paragraph1="O Instituto Lanterna Luminosa é uma Associação Civil de Terceiro Setor
           dedicada ao combate do abuso contra mulheres e seus filhos. Nosso

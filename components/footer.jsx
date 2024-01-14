@@ -7,7 +7,6 @@ export default function Footer() {
   const navigation = [
     "Idealizadora"
   ];
-  const legal = ["Terms", "Privacy", "Legal"];
   return (
     <div className="relative bg-[#EDEDED]">
       <Container>
@@ -34,16 +33,7 @@ export default function Footer() {
           <div>
             <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
               {navigation.map((item, index) => (
-                <Link key={index} href="/" className="w-full px-4 py-2 text-gray-500 rounded-md  hover:text-[#f1e37e] focus:bg-[#eee59f] focus:bg-indigo-100 focus:outline-none">                 
-                    {item}
-                </Link>
-              ))}
-            </div>
-          </div>
-          <div>
-            <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
-              {legal.map((item, index) => (
-                <Link key={index} href="/" className="w-full px-4 py-2 text-gray-500 rounded-md  hover:text-[#f1e37e] focus:bg-[#eee59f] focus:bg-indigo-100 focus:outline-none">      
+                <Link key={index} href="/idealizadora" className="w-full px-4 py-2 text-gray-500 rounded-md  hover:text-[#f1e37e] focus:bg-[#eee59f] focus:bg-indigo-100 focus:outline-none">                 
                     {item}
                 </Link>
               ))}
@@ -53,14 +43,14 @@ export default function Footer() {
             <div>Redes Sociais</div>
             <div className="flex mt-5 space-x-5 text-gray-400 dark:text-gray-500">
               <a
-                href="https://facebook.com/web3templates"
+                href="https://www.facebook.com/institutolanternaluminosa"
                 target="_blank"
                 rel="noopener">
                 <span className="sr-only">Facebook</span>
                 <Facebook />
               </a>
               <a
-                href="https://instagram.com/web3templates"
+                href="https://www.instagram.com/institutolanternaluminosa/"
                 target="_blank"
                 rel="noopener">
                 <span className="sr-only">Instagram</span>

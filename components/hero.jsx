@@ -3,6 +3,7 @@ import Container from "./container";
 import {
   ArrowDownIcon
 } from "@heroicons/react/24/solid";
+import ArrowDown from './ArrowDown';
 
 const Hero = () => {
   return (
@@ -16,11 +17,7 @@ const Hero = () => {
             <p className="text-[16px] pb-[12px] font-primary text-center leading-normal text-yellow">
             Conheça o Instituto Lanterna Luminosa: a luz que liberta as mulheres.
             </p>
-            <ArrowDownIcon 
-            width="27"
-            height="27"
-            className="text-yellow mx-auto"
-            />
+            <ArrowDown />
           </div>
         </div>
         <div className="flex items-center xl:pr-32 justify-end w-full lg:w-1/2">
