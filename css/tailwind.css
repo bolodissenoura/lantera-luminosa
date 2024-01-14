@@ -1,9 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-
 
 @layer components {
   .custom-input::-webkit-outer-spin-button,
@@ -12,4 +10,11 @@
     -webkit-appearance: none;
     margin: 0;
   }
+}
+
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
 }

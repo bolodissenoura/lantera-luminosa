@@ -6,11 +6,13 @@ const idealizadora = () => {
   return (
     <>
       <Navbar />
-      <main className="text-center py-[25%]">Tela de apresentação da Idealizadora da Instituição</main>
+      <main className="text-center py-[25%]">
+        Um texto sobre a idealizadora.
+      </main>
       <Footer />
       <PopupWidget />
     </>
   );
-}
+};
 
 export default idealizadora;

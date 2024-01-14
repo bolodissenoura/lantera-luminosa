@@ -8,10 +8,10 @@ const Hero = () => {
     <Container className="flex flex-wrap ">
         <div className="flex items-center w-full lg:w-1/2">
           <div className="max-w-3xl xl:pl-40  mb-8">
-            <h1 className="text-5xl font-primary leading-snug text-center tracking-tight text-white xl:text-left  ">
+            <h1 className="text-5xl font-primary leading-snug text-left tracking-tight text-white md:text-left">
             Você não está sozinha.
             </h1>
-            <p className="text-[16px] pb-[12px] font-primary text-center leading-normal text-yellow">
+            <p className="text-[16px] pb-[12px] font-primary text-left leading-normal text-yellow">
             Conheça o Instituto Lanterna Luminosa: a luz que liberta as mulheres.
             </p>
             <ArrowDown />
