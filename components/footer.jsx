@@ -5,7 +5,8 @@ import Container from "./container";
 
 export default function Footer() {
   const navigation = [
-    "Idealizadora"
+    { label: "Home", href: "/" },
+    { label: "Idealizadora", href: "/idealizadora" },
   ];
   return (
     <div className="relative bg-[#EDEDED]">
@@ -33,8 +34,8 @@ export default function Footer() {
           <div>
             <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
               {navigation.map((item, index) => (
-                <Link key={index} href="/idealizadora" className="w-full px-4 py-2 text-gray-500 rounded-md  hover:text-[#f1e37e] focus:bg-[#eee59f] focus:bg-indigo-100 focus:outline-none">                 
-                    {item}
+                <Link key={index} href={item.href} className="w-full px-4 py-2 text-gray-500 rounded-md  hover:text-[#f1e37e] focus:bg-[#f9f4d1] focus:outline-none">                 
+                    {item.label}
                 </Link>
               ))}
             </div>

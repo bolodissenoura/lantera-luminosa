@@ -1,8 +1,5 @@
 import Image from "next/image";
 import Container from "./container";
-import {
-  ArrowDownIcon
-} from "@heroicons/react/24/solid";
 import ArrowDown from './ArrowDown';
 
 const Hero = () => {

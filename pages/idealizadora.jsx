@@ -6,7 +6,7 @@ const idealizadora = () => {
   return (
     <>
       <Navbar />
-      <main className="text-center py-[25%]">bolodissenoura</main>
+      <main className="text-center py-[25%]">Tela de apresentação da Idealizadora da Instituição</main>
       <Footer />
       <PopupWidget />
     </>

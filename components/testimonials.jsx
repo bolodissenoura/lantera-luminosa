@@ -13,7 +13,7 @@ const Testimonials  = () => {
         <div className="lg:col-span-2 xl:col-auto">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14">
             <p className="text-2xl font-primary leading-normal ">
-            Ele quebrou meu braço, fui parar no hospital. Depois, abrigada na casa de parentes busquei a justiça. Elas me acompanharam, deram todo o apoio, amenizando as minhas dores até nos dias em que sinto nem quero mais viver. Este trabalho significou muito pra mim e, com certeza, está ajudando muitas mulheres. 
+            Ele quebrou meu braço, fui parar no hospital. Depois, abrigada na casa de parentes busquei. Elas me acompanharam, deram todo o apoio, amenizando as minhas dores até nos dias em que sinto nem quero mais viver. Este trabalho significou muito pra mim e, com certeza, está ajudando muitas mulheres. 
             </p>
 
             <Avatar
@@ -30,7 +30,7 @@ const Testimonials  = () => {
             </p>
 
             <Avatar
-              image={userTwoImg}
+              image={userOneImg}
               name="Ana Clara Anjos"
               title="Vítima de machismo"
             />
@@ -43,7 +43,7 @@ const Testimonials  = () => {
             </p>
 
             <Avatar
-              image={userThreeImg}
+              image={userOneImg}
               name="Eduarda Maia"
               title="Vítima de machismo"
             />
