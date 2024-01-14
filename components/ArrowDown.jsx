@@ -6,7 +6,7 @@ const ArrowDown = () => {
     let pixelsToScroll;
 
     if (window.innerWidth < 640) {
-      pixelsToScroll = 1100;  
+      pixelsToScroll = 900;  
     } else {
       pixelsToScroll = 700;
     }
