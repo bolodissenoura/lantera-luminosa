@@ -3,7 +3,13 @@ import { ArrowDownIcon } from "@heroicons/react/24/solid";
 
 const ArrowDown = () => {
   const scrollToSection = () => {
-    const pixelsToScroll = 700;
+    let pixelsToScroll;
+
+    if (window.innerWidth < 640) {
+      pixelsToScroll = 1100;  
+    } else {
+      pixelsToScroll = 700;
+    }
     const currentPosition =  document.documentElement.scrollTop;
     const targetPosition = currentPosition + pixelsToScroll;
 

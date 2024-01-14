@@ -32,7 +32,7 @@ const Navbar = () => {
 
               <Disclosure.Button
                 aria-label="Toggle Menu"
-                className="px-2 py-1 ml-auto text-gray-500 rounded-md lg:hidden hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none ">
+                className="px-2 py-1 ml-auto rounded-md lg:hidden text-yellow rounded-md  hover:text-[#f1e37e] focus:text-green focus:bg-[#eee59f] focus:outline-none">
                 <svg
                   className="w-6 h-6 fill-current"
                   xmlns="http://www.w3.org/2000/svg"
