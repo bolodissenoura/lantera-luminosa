@@ -19,7 +19,7 @@ const Testimonials  = () => {
             <Avatar
               image={userOneImg}
               name="Maria Santos"
-              title="Vítima de machismo"
+              title="Vítima de abuso."
             />
           </div>
         </div>
@@ -32,7 +32,7 @@ const Testimonials  = () => {
             <Avatar
               image={userTwoImg}
               name="Ana Clara Anjos"
-              title="Vítima de machismo"
+              title="Vítima de abuso."
             />
           </div>
         </div>
@@ -45,7 +45,7 @@ const Testimonials  = () => {
             <Avatar
               image={userThreeImg}
               name="Eduarda Maia"
-              title="Vítima de machismo"
+              title="Vítima de abuso."
             />
           </div>
         </div>
