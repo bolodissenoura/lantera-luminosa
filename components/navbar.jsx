@@ -20,7 +20,8 @@ const Navbar = () => {
                 <span className="flex items-center xl:pl-16 text-2xl font-medium text-yellow ">
                   <span>
                     <Image
-                      src="/img/logolanterna.svg"
+                    className="mr-8"
+                      src="/img/lanternalogo.jpg"
                       alt="N"
                       width="100"
                       height="100" 

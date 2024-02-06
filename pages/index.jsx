@@ -12,6 +12,8 @@ import Cta from "../components/cta";
 import Faq from "../components/faq";
 import PopupWidget from "../components/popupWidget";
 import Image from "next/image";
+import Contribuidores from "../components/contribuidores";
+import Vaquinha from "../components/Vaquinha";
 
 
 const Home = () => {
@@ -52,19 +54,24 @@ const Home = () => {
           públicas, mistas e privadas, secretarias governamentais, poder
           legislativo, judiciário e outras organizações do terceiro setor."
       ></SectionTitle>
+      <Contribuidores />
       <div className="bg-[#EDEDED]">
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
+      <Vaquinha />
       </div>
       <SectionTitle
         pretitle="Watch a video"
-        title="Abordando sobre Abuso Psicológico"
+        title="Nossos vídeos"
       >
         This section is to highlight a promo or demo video of your product.
         Analysts says a landing page with video has 3% more conversion rate. So,
         don&apos;t forget to add one. Just like this.
       </SectionTitle>
-      <Video />
+      <Video src="https://www.youtube-nocookie.com/embed/VQ-6WzP9vS4?controls=0&autoplay=1"
+              src2="https://www.youtube.com/embed/D0UnqGm_miA"/>
+      <Video src="https://www.youtube-nocookie.com/embed/VQ-6WzP9vS4?controls=0&autoplay=1"
+       src2="https://www.youtube.com/embed/D0UnqGm_miA" />
       <SectionTitle
         pretitle="Testimonials"
         title="Depoimentos"
