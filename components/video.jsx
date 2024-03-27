@@ -4,9 +4,9 @@ import Container from "./container";
 const Video = (props) => {
   return (
     <Container>
-      <div className="flex justify-center w-full mx-auto overflow-hidden relative cursor-pointer">
-        <iframe className="aspect-video mr-12 w-[800px] h-[500px] rounded-xl " src={props.src}></iframe>
-        <iframe className="aspect-video w-[800px] h-[500px] rounded-xl " src={props.src2}></iframe>
+      <div className="flex gap-5 overflow-x-auto custom-scrollbar-none sm:justify-between sm:gap-0 sm:overflow-visible">
+        <iframe className="w-[86%] h-[500px] rounded-xl sm:w-[48%]" src={props.src}></iframe>
+        <iframe className="w-[86%] h-[500px] rounded-xl sm:w-[48%]" src={props.src2}></iframe>
       </div>
     </Container>
   );
