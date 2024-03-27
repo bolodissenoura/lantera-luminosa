@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState, useEffect, useRef} from 'react';
 import { useForm, useWatch } from 'react-hook-form';
 import { Disclosure, Transition } from '@headlessui/react';
 import usePopupStore from './popupStore';
@@ -16,6 +16,7 @@ const PopupWidget = () => {
   });
   const [isSuccess, setIsSuccess] = useState(false);
   const [Message, setMessage] = useState('');
+  const modalRef = useRef();
 
   const userName = useWatch({ control, name: 'name', defaultValue: 'Alguém' });
 
@@ -48,8 +49,24 @@ const PopupWidget = () => {
       });
   };
 
+  useEffect(() => {
+    const handleOutsideClick = (event) => {
+      if (modalRef.current && !modalRef.current.contains(event.target)) {
+        togglePopup();
+      }
+    };
+
+    if (isOpen) {
+      document.addEventListener('mousedown', handleOutsideClick);
+    }
+
+    return () => {
+      document.removeEventListener('mousedown', handleOutsideClick);
+    };
+  }, [isOpen, togglePopup]);
+
   return (
-    <div>
+    <div ref={modalRef}>
       <Disclosure>
         {({ open }) => (
           <>
