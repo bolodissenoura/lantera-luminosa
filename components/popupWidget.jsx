@@ -124,9 +124,11 @@ const PopupWidget = () => {
                       alt="Close button"
                     />
                   </span>
-                  <h3 className="text-lg text-white">Como podemos ajudar?</h3>
+                  <h3 className="text-lg text-white">
+                    Como podemos te ajudar?
+                  </h3>
                   <p className="text-white opacity-50">
-                    Responderemos em alguns instantes
+                    Responderemos em alguns instantes...
                   </p>
                 </div>
                 <div className="flex-grow h-full p-6 overflow-auto bg-gray-50 ">
@@ -193,7 +195,7 @@ const PopupWidget = () => {
                           type="email"
                           id="email"
                           {...register('email', {
-                            required: 'Seu e-mail aqui',
+                            required: 'E-mail requerido',
                             pattern: {
                               value: /^\S+@\S+$/i,
                               message: 'Coloque um e-mail válido',
@@ -225,7 +227,7 @@ const PopupWidget = () => {
                           id="number"
                           placeholder="(00) 00000-0000"
                           {...register('number', {
-                            required: 'Numero completo requerido',
+                            required: 'Número completo requerido',
                             maxLength: 14,
                           })}
                           className={`custom-input w-full px-3 py-2 text-gray-600 placeholder-gray-300 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring   ${
