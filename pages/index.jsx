@@ -23,12 +23,12 @@ const Home = () => {
       <Navbar />
       <Hero />
       <Image
-      src="/img/wave.svg"
-      width={1440}
-      height={389}
-      className="absolute w-full"
-      alt="WaveImg"
-    />
+        src="/img/wave.svg"
+        width={1440}
+        height={389}
+        className="absolute w-full"
+        alt="WaveImg"
+      />
       <SectionTitle
         titleClassName="pt-[110px] md:pt-[300px]"
         title="Sobre nós"
@@ -54,11 +54,10 @@ const Home = () => {
           públicas, mistas e privadas, secretarias governamentais, poder
           legislativo, judiciário e outras organizações do terceiro setor."
       ></SectionTitle>
-      <Contribuidores />
       <div className="bg-[#EDEDED]">
-      <Benefits data={benefitOne} />
-      <Benefits imgPos="right" data={benefitTwo} />
-      <Vaquinha />
+        <Benefits data={benefitOne} />
+        <Benefits imgPos="right" data={benefitTwo} />
+        <Vaquinha />
       </div>
       <SectionTitle
         pretitle="Watch a video"
@@ -69,9 +68,9 @@ const Home = () => {
         don&apos;t forget to add one. Just like this.
       </SectionTitle>
       <Video src="https://www.youtube-nocookie.com/embed/VQ-6WzP9vS4?controls=0&autoplay=1"
-              src2="https://www.youtube.com/embed/D0UnqGm_miA"/>
+        src2="https://www.youtube.com/embed/D0UnqGm_miA" />
       <Video src="https://www.youtube-nocookie.com/embed/VQ-6WzP9vS4?controls=0&autoplay=1"
-       src2="https://www.youtube.com/embed/D0UnqGm_miA" />
+        src2="https://www.youtube.com/embed/D0UnqGm_miA" />
       <SectionTitle
         pretitle="Testimonials"
         title="Depoimentos"
@@ -85,7 +84,8 @@ const Home = () => {
         conversion rate as well as support or chat requests.
       </SectionTitle>
       <Faq />
-      <Cta/>
+      <Cta />
+      <Contribuidores />
       <Footer />
       <PopupWidget />
     </>
