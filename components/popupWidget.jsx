@@ -1,7 +1,8 @@
-import { useState, useEffect, useRef} from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useForm, useWatch } from 'react-hook-form';
 import { Disclosure, Transition } from '@headlessui/react';
 import usePopupStore from './popupStore';
+import Image from 'next/image';
 
 const PopupWidget = () => {
   const { isOpen, togglePopup } = usePopupStore();
@@ -135,10 +136,12 @@ const PopupWidget = () => {
                     onClick={togglePopup}
                     className="absolute w-5 right-3 h-20"
                   >
-                    <img
+                    <Image
                       className="cursor-pointer"
                       src="img/close-button-svgrepo-com.svg"
                       alt="Close button"
+                      width={30}
+                      height={30}
                     />
                   </span>
                   <h3 className="text-lg text-white">
