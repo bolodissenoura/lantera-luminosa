@@ -11,7 +11,7 @@ export default function Footer() {
   return (
     <div className="relative bg-[#EDEDED]">
       <Container>
-        <div className="grid max-w-screen-xl grid-cols-1 gap-10 pt-10 mx-auto mt-5 border-t border-black dark:border-black lg:grid-cols-5">
+        <div className="grid max-w-screen-xl grid-cols-1 gap-10 mx-auto mt-5 dark:border-black lg:grid-cols-4">
           <div className="lg:col-span-2">
             <div>
               {" "}

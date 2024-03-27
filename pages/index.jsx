@@ -54,7 +54,6 @@ const Home = () => {
           públicas, mistas e privadas, secretarias governamentais, poder
           legislativo, judiciário e outras organizações do terceiro setor."
       ></SectionTitle>
-      <Contribuidores />
       <div className="bg-[#EDEDED]">
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
@@ -86,6 +85,7 @@ const Home = () => {
       </SectionTitle>
       <Faq />
       <Cta/>
+      <Contribuidores />
       <Footer />
       <PopupWidget />
     </>
