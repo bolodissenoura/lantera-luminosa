@@ -1,12 +1,13 @@
 import Link from "next/link";
-import Image from "next/image"
+import Image from "next/image";
 import { Disclosure } from "@headlessui/react";
-import usePopupStore from './popupStore';
+import usePopupStore from "./popupStore";
 import { useRouter } from "next/router";
 
 const Navbar = () => {
   const { pathname } = useRouter();
-  const navigation = pathname === "/idealizadora" ? ["Voltar"] : ["Idealizadora"];
+  const navigation =
+    pathname === "/idealizadora" ? ["Voltar"] : ["Idealizadora"];
   const { togglePopup } = usePopupStore();
 
   return (
@@ -20,24 +21,28 @@ const Navbar = () => {
                 <span className="flex items-center xl:pl-16 text-2xl font-medium text-yellow ">
                   <span>
                     <Image
-                    className="mr-8 rounded-full shadow"
-                      src="/img/logo.png"
-                      alt="N"
+                      className="mr-8 rounded-full shadow"
+                      src="/img/white-logo.jpg"
+                      alt="Logo"
                       width="100"
-                      height="100" 
+                      height="100"
                     />
                   </span>
-                  <p className="font-primary text-[16px]">Instituto Lanterna Luminosa</p>
+                  <p className="font-primary text-[14px] md:text-[16px]">
+                    Instituto Lanterna Luminosa
+                  </p>
                 </span>
               </Link>
 
               <Disclosure.Button
                 aria-label="Toggle Menu"
-                className="px-2 py-1 ml-auto rounded-md lg:hidden text-yellow rounded-md  hover:text-[#f1e37e] focus:text-green focus:bg-[#eee59f] focus:outline-none">
+                className="px-2 py-1 ml-auto lg:hidden text-yellow rounded-md  hover:text-[#f1e37e] focus:text-green focus:bg-[#eee59f] focus:outline-none"
+              >
                 <svg
                   className="w-6 h-6 fill-current"
                   xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24">
+                  viewBox="0 0 24 24"
+                >
                   {open && (
                     <path
                       fillRule="evenodd"
@@ -57,7 +62,13 @@ const Navbar = () => {
               <Disclosure.Panel className="flex flex-wrap w-full my-5 lg:hidden">
                 <>
                   {navigation.map((item, index) => (
-                    <Link key={index} href={pathname === "/idealizadora" ? "/" : "/idealizadora"} className="w-full text-center px-4 py-2 ml-4 text-yellow rounded-md  hover:text-[#f1e37e] focus:text-green focus:bg-[#eee59f] focus:outline-none">
+                    <Link
+                      key={index}
+                      href={
+                        pathname === "/idealizadora" ? "/" : "/idealizadora"
+                      }
+                      className="w-full text-center px-4 py-2 ml-4 text-yellow rounded-md  hover:text-[#f1e37e] focus:text-green focus:bg-[#eee59f] focus:outline-none"
+                    >
                       {item}
                     </Link>
                   ))}
@@ -72,7 +83,10 @@ const Navbar = () => {
           <ul className="items-center justify-end flex-1 pt-6 list-none lg:pt-0 lg:flex">
             {navigation.map((menu, index) => (
               <li className="mr-3 nav__item" key={index}>
-                <Link href={pathname === "/idealizadora" ? "/" : "/idealizadora"} className="inline-block px-6 py-2 text-lg font-primary text-yellow no-underline rounded-md  hover:text-[#f1e37e] focus:text-green focus:bg-[#eee59f] focus:outline-none ">
+                <Link
+                  href={pathname === "/idealizadora" ? "/" : "/idealizadora"}
+                  className="inline-block px-6 py-2 text-lg font-primary text-yellow no-underline rounded-md  hover:text-[#f1e37e] focus:text-green focus:bg-[#eee59f] focus:outline-none "
+                >
                   {menu}
                 </Link>
               </li>
@@ -81,7 +95,8 @@ const Navbar = () => {
           <div className="flex-shrink-0 text-center lg:w-auto">
             <button
               onClick={togglePopup}
-              className="inline-block py-3 text-lg font-primary text-center text-green bg-yellow rounded-lg px-7 lg:px-5 lg:py-3 ">
+              className="inline-block py-3 text-lg font-primary text-center text-green bg-yellow rounded-lg px-7 lg:px-5 lg:py-3 "
+            >
               Buscar Ajuda
             </button>
           </div>
@@ -89,6 +104,6 @@ const Navbar = () => {
       </nav>
     </div>
   );
-}
+};
 
 export default Navbar;
