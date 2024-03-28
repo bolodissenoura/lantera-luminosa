@@ -3,7 +3,7 @@ import Container from "./container";
 const Contribuidores = () => {
   return (
     <Container>
-    <div className="flex flex-col justify-center mb-16">
+    <div className="flex flex-col justify-center mb-10">
       <div className="text-xl text-center text-gray-700 font-primary">
         Apoiadores
       </div>
