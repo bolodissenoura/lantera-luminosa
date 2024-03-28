@@ -4,7 +4,7 @@ import React from "react";
 import Container from "./container";
 
 export default function Footer() {
-  const navigation = [
+  const className="flex mt-5 space-x-5 text-gray-400 dark:text-gray-500", navigation = [
     { label: "Home", href: "/" },
     { label: "Idealizadora", href: "/idealizadora" },
   ];
