@@ -34,20 +34,20 @@ const Home = () => {
         title="Sobre nós"
         paragraph1="O Instituto Lanterna Luminosa é uma Associação Civil de Terceiro Setor
           dedicada ao combate do abuso contra mulheres e seus filhos. Nosso
-          compromisso é amplo, abrangendo desde a prevenção de diversos tipos de
+          compromisso é amplo, abrangendo desde a prevenção de todos os tipos de
           abusos até o apoio e fortalecimento da mulher que se encontra em uma
           relação abusiva."
         paragraph2="Atuamos de maneira integral, fornecendo suporte essencial em todos os
-          aspectos da vida das mulheres afetadas, incluindo áreas profissionais,
-          financeiras, jurídicas, de segurança, saúde, autoestima, emocional e
+          aspectos da vida das mulheres afetadas, incluindo as áreas: profissional,
+          financeira, jurídica, de segurança, saúde, autoestima, emocional e
           espiritual. Valorizamos uma abordagem humanizada, regida por
           princípios como respeito, ética, solidariedade, proatividade,
           comprometimento e consciência."
-        paragraph3="Um dos nossos diferenciais é a forma inovadora e lúdica com que
+        paragraph3='Um dos nossos diferenciais é a forma inovadora e lúdica com que
           abordamos temas sensíveis relacionados ao abuso e à violência
-          doméstica. O projeto Em Mares de Sereios exemplifica essa abordagem,
+          doméstica. O projeto "Em Mares de Sereios" exemplifica essa abordagem,
           utilizando palestras musicais, vídeos, livros, ebooks, podcasts, redes
-          sociais e piers de atendimento, sejam eles presenciais ou online."
+          sociais e piers de atendimento, sejam eles presenciais ou online.'
         paragraph4="Os piers de atendimento abrangem todas as áreas da vida das mulheres
           afetadas, visando auxiliar na retomada de sua autonomia e
           protagonismo. Contamos com a participação de voluntários, empresas
