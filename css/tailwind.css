@@ -10,6 +10,9 @@
     -webkit-appearance: none;
     margin: 0;
   }
+  .custom-scrollbar-none::-webkit-scrollbar {
+    width: 0;
+  }
 }
 
 img {

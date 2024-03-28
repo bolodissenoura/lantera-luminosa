@@ -6,7 +6,6 @@ import Image from 'next/image';
 
 const PopupWidget = () => {
   const { isOpen, togglePopup } = usePopupStore();
-  console.log(isOpen);
   const {
     register,
     handleSubmit,
@@ -23,7 +22,6 @@ const PopupWidget = () => {
   const userName = useWatch({ control, name: 'name', defaultValue: 'Alguém' });
 
   const onSubmit = async (data, e) => {
-    console.log(data);
     await fetch('https://api.web3forms.com/submit', {
       method: 'POST',
       headers: {
@@ -141,22 +139,22 @@ const PopupWidget = () => {
             >
               <Disclosure.Panel className=" flex flex-col  overflow-hidden left-0 h-full w-full sm:w-[350px] min-h-[250px] sm:h-[600px] border border-gray-300 bg-white shadow-2xl rounded-md sm:max-h-[calc(100vh-120px)]">
                 <div className="relative flex flex-col items-center justify-center  p-5 bg-green">
-                    <svg
-                      onClick={togglePopup}
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="text-white cursor-pointer absolute w-6 h-6 right-3 top-3"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    >
-                      <line x1="18" y1="6" x2="6" y2="18"></line>
-                      <line x1="6" y1="6" x2="18" y2="18"></line>
-                    </svg>
+                  <svg
+                    onClick={togglePopup}
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="text-white cursor-pointer absolute w-6 h-6 right-3 top-3"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                  </svg>
                   <h3 className="text-lg text-white">
                     Como podemos te ajudar?
                   </h3>
