@@ -21,11 +21,11 @@ const Navbar = () => {
                 <span className="flex items-center xl:pl-16 text-2xl font-medium text-yellow ">
                   <span>
                     <Image
-                      className="mr-8 rounded-full shadow"
-                      src="/img/white-logo.jpg"
-                      alt="Logo"
-                      width="100"
-                      height="100"
+                    className="m-4 mt-0 rounded-full shadow  w-[50px] h-[50px] lg:w-[100px] lg:h-[100px]  "
+                      src="/img/logo.png"
+                      alt="N"
+                      width={100}
+                      height={100}
                     />
                   </span>
                   <p className="font-primary text-[14px] md:text-[16px]">
