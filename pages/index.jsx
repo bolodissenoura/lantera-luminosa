@@ -42,17 +42,17 @@ const Home = () => {
           espiritual. Valorizamos uma abordagem humanizada, regida por
           princípios como respeito, ética, solidariedade, proatividade,
           comprometimento e consciência."
-        paragraph3="Um dos nossos diferenciais é a forma inovadora e lúdica com que
+        paragraph3={`Um dos nossos diferenciais é a forma inovadora e lúdica com que
           abordamos temas sensíveis relacionados ao abuso e à violência
-          doméstica. O projeto "Em Mares de Sereios" exemplifica essa abordagem,
-          utilizando palestras musicais, vídeos, livros, ebooks, podcasts, redes
-          sociais e piers de atendimento, sejam eles presenciais ou online."
+        doméstica. O projeto "Em Mares de Sereios" exemplifica essa abordagem,
+      utilizando palestras musicais, vídeos, livros, ebooks, podcasts, redes
+      sociais e piers de atendimento, sejam eles presenciais ou online.`}
         paragraph4="Os piers de atendimento abrangem todas as áreas da vida das mulheres
-          afetadas, visando auxiliar na retomada de sua autonomia e
-          protagonismo. Contamos com a participação de voluntários, empresas
-          públicas, mistas e privadas, secretarias governamentais, poder
-          legislativo, judiciário e outras organizações do terceiro setor."
-      ></SectionTitle>
+      afetadas, visando auxiliar na retomada de sua autonomia e
+      protagonismo. Contamos com a participação de voluntários, empresas
+      públicas, mistas e privadas, secretarias governamentais, poder
+      legislativo, judiciário e outras organizações do terceiro setor."
+      ></SectionTitle >
       <div className="bg-[#EDEDED]">
         <Benefits data={benefitOne} />
         <Benefits imgPos="right" data={benefitTwo} />
