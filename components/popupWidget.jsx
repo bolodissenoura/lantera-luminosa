@@ -6,6 +6,7 @@ import Image from 'next/image';
 
 const PopupWidget = () => {
   const { isOpen, togglePopup } = usePopupStore();
+  console.log(isOpen);
   const {
     register,
     handleSubmit,
@@ -71,10 +72,15 @@ const PopupWidget = () => {
       <Disclosure>
         {({ open }) => (
           <>
-            <Disclosure.Button className="fixed z-40 flex items-center justify-center transition duration-300 bg-green rounded-full shadow-lg right-5 bottom-5 w-14 h-14 focus:outline-none hover:bg-[#1b4023] focus:bg-[#1b4023] ease">
+            <Disclosure.Button
+              onClick={togglePopup}
+              className="fixed z-40 flex items-center justify-center transition duration-300 bg-green rounded-full shadow-lg right-5 bottom-5 w-14 h-14 focus:outline-none hover:bg-[#1b4023] focus:bg-[#1b4023] ease"
+            >
               <span className="sr-only">Abrir o Widget de contato</span>
+
               <Transition
-                show={!open}
+                show={!isOpen}
+                onClick={togglePopup}
                 enter="transition duration-200 transform ease"
                 enterFrom="opacity-0 -rotate-45 scale-75"
                 leave="transition duration-100 transform ease"
@@ -82,6 +88,7 @@ const PopupWidget = () => {
                 className="absolute w-6 h-6 text-white"
               >
                 <svg
+                  onClick={togglePopup}
                   xmlns="http://www.w3.org/2000/svg"
                   className="w-6 h-6"
                   width="24"
@@ -98,7 +105,8 @@ const PopupWidget = () => {
               </Transition>
 
               <Transition
-                show={open}
+                show={isOpen}
+                onClick={togglePopup}
                 enter="transition duration-200 transform ease"
                 enterFrom="opacity-0 rotate-45 scale-75"
                 leave="transition duration-100 transform ease"
@@ -106,6 +114,7 @@ const PopupWidget = () => {
                 className="absolute w-6 h-6 text-white"
               >
                 <svg
+                  onClick={togglePopup}
                   xmlns="http://www.w3.org/2000/svg"
                   className="w-6 h-6"
                   width="24"
@@ -119,11 +128,11 @@ const PopupWidget = () => {
                 >
                   <line x1="18" y1="6" x2="6" y2="18"></line>
                   <line x1="6" y1="6" x2="18" y2="18"></line>
-                </svg>{' '}
+                </svg>
               </Transition>
             </Disclosure.Button>
             <Transition
-              show={open || isOpen}
+              show={isOpen}
               className="fixed  z-50 bottom-[100px] top-0 right-0  left-0 sm:top-auto sm:right-5 sm:left-auto"
               enter="transition duration-200 transform ease"
               enterFrom="opacity-0 translate-y-5"
@@ -131,19 +140,23 @@ const PopupWidget = () => {
               leaveTo="opacity-0 translate-y-5"
             >
               <Disclosure.Panel className=" flex flex-col  overflow-hidden left-0 h-full w-full sm:w-[350px] min-h-[250px] sm:h-[600px] border border-gray-300 bg-white shadow-2xl rounded-md sm:max-h-[calc(100vh-120px)]">
-                <div className="relative flex flex-col items-center justify-center h-32 p-5 bg-green">
-                  <span
-                    onClick={togglePopup}
-                    className="absolute w-5 right-3 h-20"
-                  >
-                    <Image
-                      className="cursor-pointer"
-                      src="img/close-button-svgrepo-com.svg"
-                      alt="Close button"
-                      width={30}
-                      height={30}
-                    />
-                  </span>
+                <div className="relative flex flex-col items-center justify-center  p-5 bg-green">
+                    <svg
+                      onClick={togglePopup}
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="text-white cursor-pointer absolute w-6 h-6 right-3 top-3"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <line x1="18" y1="6" x2="6" y2="18"></line>
+                      <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
                   <h3 className="text-lg text-white">
                     Como podemos te ajudar?
                   </h3>

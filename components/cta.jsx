@@ -1,9 +1,9 @@
-import React from "react";
-import Container from "./container";
+import React from 'react';
+import Container from './container';
 import usePopupStore from './popupStore';
 
 const Cta = () => {
-    const { togglePopup } = usePopupStore(); 
+  const { togglePopup } = usePopupStore();
 
   return (
     <Container>
@@ -16,16 +16,17 @@ const Cta = () => {
             Não deixe para depois.
           </p>
         </div>
-        <div className="flex-shrink-0 w-full text-center lg:w-auto">
-          <button
-            onClick={togglePopup} 
-            className="inline-block py-3 mx-auto text-lg font-medium text-center text-green bg-white rounded-md px-7 lg:px-10 lg:py-5 ">
+        <div
+          onClick={togglePopup}
+          className="flex-shrink-0 w-full text-center lg:w-auto"
+        >
+          <button className="inline-block py-3 mx-auto text-lg font-medium text-center text-green bg-white rounded-md px-7 lg:px-10 lg:py-5 ">
             Contate nos
           </button>
         </div>
       </div>
     </Container>
   );
-}
+};
 
 export default Cta;
