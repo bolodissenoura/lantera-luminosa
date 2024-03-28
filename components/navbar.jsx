@@ -22,7 +22,7 @@ const Navbar = () => {
                   <span>
                     <Image
                       className="mr-8 rounded-full shadow"
-                      src="/img/logo.png"
+                      src="/img/white-logo.jpg"
                       alt="Logo"
                       width="100"
                       height="100"
@@ -36,7 +36,7 @@ const Navbar = () => {
 
               <Disclosure.Button
                 aria-label="Toggle Menu"
-                className="px-2 py-1 ml-auto rounded-md lg:hidden text-yellow rounded-md  hover:text-[#f1e37e] focus:text-green focus:bg-[#eee59f] focus:outline-none"
+                className="px-2 py-1 ml-auto lg:hidden text-yellow rounded-md  hover:text-[#f1e37e] focus:text-green focus:bg-[#eee59f] focus:outline-none"
               >
                 <svg
                   className="w-6 h-6 fill-current"
