@@ -53,7 +53,6 @@ const Home = () => {
           públicas, mistas e privadas, secretarias governamentais, poder
           legislativo, judiciário e outras organizações do terceiro setor."
       ></SectionTitle>
-
       <div className="bg-[#EDEDED]">
         <Benefits data={benefitOne} />
         <Benefits imgPos="right" data={benefitTwo} />
