@@ -1,14 +1,10 @@
-import {
-  HeartIcon,
-  FaceFrownIcon,
-} from "@heroicons/react/24/solid";
-
+import { HeartIcon, FaceFrownIcon } from "@heroicons/react/24/solid";
 
 import benefitOneImg from "../public/img/dataphoto1.jpg";
 import benefitTwoImg from "../public/img/dataphoto2.jpg";
 
 const benefitOne = {
-  title: "Compreensão Profunda ❤️",
+  title: "Compreensão Profunda",
   desc: "O Instituto Lanterna Luminosa (ILL) dedica-se ao combate do abuso contra mulheres e seus filhos, proporcionando apoio abrangente para um reinício seguro e saudável em diversas áreas da vida.",
   image: benefitOneImg,
   bullets: [
@@ -30,9 +26,8 @@ const benefitOne = {
   ],
 };
 
-
 const benefitTwo = {
-  title: "Voz com poder ☀️",
+  title: "Voz com poder",
   desc: "Engajado na promoção do empoderamento feminino, o ILL trabalha incansavelmente para desafiar e superar a triste realidade do abuso contra mulheres, oferecendo um suporte holístico para reinícios vibrantes e saudáveis.",
   image: benefitTwoImg,
   bullets: [
@@ -54,5 +49,4 @@ const benefitTwo = {
   ],
 };
 
-
-export {benefitOne, benefitTwo};
+export { benefitOne, benefitTwo };
