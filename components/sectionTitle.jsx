@@ -1,7 +1,6 @@
 import React from "react";
 import Container from "./container";
 
-
 const SectionTitle = (props) => {
   return (
     <Container
@@ -13,30 +12,30 @@ const SectionTitle = (props) => {
           </h2>
         )}
 
-        {props.paragraph1 && (
-          <p className="max-w-6xl pt-10 font-primary  text-lg leading-normal text-gray-500 lg:text-xl xl:text-xl">
-            {props.paragraph1}
-          </p>
-        )}
+      {props.paragraph1 && (
+        <p className="max-w-6xl pt-10 font-primary  text-lg leading-normal text-gray-500 lg:text-xl xl:text-xl">
+          {props.paragraph1}
+        </p>
+      )}
 
-        {props.paragraph2 && (
-          <p className="max-w-6xl pt-4 font-primary  text-lg leading-normal text-gray-500 lg:text-xl xl:text-xl">
-            {props.paragraph2}
-          </p>
-        )}
+      {props.paragraph2 && (
+        <p className="max-w-6xl pt-4 font-primary  text-lg leading-normal text-gray-500 lg:text-xl xl:text-xl">
+          {props.paragraph2}
+        </p>
+      )}
 
-        {props.paragraph3 && (
-          <p className="max-w-6xl pt-4 font-primary  text-lg leading-normal text-gray-500 lg:text-xl xl:text-xl">
-            {props.paragraph3}
-          </p>
-        )}
+      {props.paragraph3 && (
+        <p className="max-w-6xl pt-4 font-primary  text-lg leading-normal text-gray-500 lg:text-xl xl:text-xl">
+          {props.paragraph3}
+        </p>
+      )}
 
-        {props.paragraph4 && (
-          <p className="max-w-6xl pt-4 font-primary  pb-16 text-lg leading-normal text-gray-500 lg:text-xl xl:text-xl">
-            {props.paragraph4}
-          </p>
-        )}
-      </Container>
+      {props.paragraph4 && (
+        <p className="max-w-6xl pt-4 font-primary  pb-16 text-lg leading-normal text-gray-500 lg:text-xl xl:text-xl">
+          {props.paragraph4}
+        </p>
+      )}
+    </Container>
   );
 };
 
