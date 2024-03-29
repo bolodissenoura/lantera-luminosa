@@ -67,10 +67,6 @@ const Home = () => {
         src="https://www.youtube-nocookie.com/embed/VQ-6WzP9vS4?controls=0&autoplay=0"
         src2="https://www.youtube.com/embed/D0UnqGm_miA"
       />
-      <Video
-        src="https://www.youtube-nocookie.com/embed/VQ-6WzP9vS4?controls=0&autoplay=0"
-        src2="https://www.youtube.com/embed/D0UnqGm_miA"
-      />
       <SectionTitle pretitle="Testimonials" title="Depoimentos">
         Testimonails is a great way to increase the brand trust and awareness.
         Use this section to highlight your popular customers.
