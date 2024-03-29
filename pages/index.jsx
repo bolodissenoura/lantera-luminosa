@@ -52,7 +52,7 @@ const Home = () => {
       protagonismo. Contamos com a participação de voluntários, empresas
       públicas, mistas e privadas, secretarias governamentais, poder
       legislativo, judiciário e outras organizações do terceiro setor."
-      ></SectionTitle >
+      ></SectionTitle>
       <div className="bg-[#EDEDED]">
         <Benefits data={benefitOne} />
         <Benefits imgPos="right" data={benefitTwo} />
@@ -63,10 +63,6 @@ const Home = () => {
         Analysts says a landing page with video has 3% more conversion rate. So,
         don&apos;t forget to add one. Just like this.
       </SectionTitle>
-      <Video
-        src="https://www.youtube-nocookie.com/embed/VQ-6WzP9vS4?controls=0&autoplay=0"
-        src2="https://www.youtube.com/embed/D0UnqGm_miA"
-      />
       <Video
         src="https://www.youtube-nocookie.com/embed/VQ-6WzP9vS4?controls=0&autoplay=0"
         src2="https://www.youtube.com/embed/D0UnqGm_miA"
