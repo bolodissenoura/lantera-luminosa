@@ -1,13 +1,13 @@
-import Link from "next/link";
-import Image from "next/image";
-import { Disclosure } from "@headlessui/react";
-import usePopupStore from "./popupStore";
-import { useRouter } from "next/router";
+import Link from 'next/link';
+import Image from 'next/image';
+import { Disclosure } from '@headlessui/react';
+import usePopupStore from './popupStore';
+import { useRouter } from 'next/router';
 
 const Navbar = () => {
   const { pathname } = useRouter();
   const navigation =
-    pathname === "/idealizadora" ? ["Voltar"] : ["Idealizadora"];
+    pathname === '/idealizadora' ? ['Voltar'] : ['Idealizadora'];
   const { togglePopup } = usePopupStore();
 
   return (
@@ -21,7 +21,7 @@ const Navbar = () => {
                 <span className="flex items-center xl:pl-16 text-2xl font-medium text-yellow ">
                   <span>
                     <Image
-                    className="m-4 mt-0 rounded-full shadow  w-[50px] h-[50px] lg:w-[100px] lg:h-[100px]  "
+                      className="m-4 mt-0 rounded-full shadow  w-[50px] h-[50px] lg:w-[100px] lg:h-[100px]  "
                       src="/img/logo.png"
                       alt="N"
                       width={100}
@@ -65,7 +65,7 @@ const Navbar = () => {
                     <Link
                       key={index}
                       href={
-                        pathname === "/idealizadora" ? "/" : "/idealizadora"
+                        pathname === '/idealizadora' ? '/' : '/idealizadora'
                       }
                       className="w-full text-center px-4 py-2 ml-4 text-yellow rounded-md  hover:text-[#f1e37e] focus:text-green focus:bg-[#eee59f] focus:outline-none"
                     >
@@ -84,7 +84,7 @@ const Navbar = () => {
             {navigation.map((menu, index) => (
               <li className="mr-3 nav__item" key={index}>
                 <Link
-                  href={pathname === "/idealizadora" ? "/" : "/idealizadora"}
+                  href={pathname === '/idealizadora' ? '/' : '/idealizadora'}
                   className="inline-block px-6 py-2 text-lg font-primary text-yellow no-underline rounded-md  hover:text-[#f1e37e] focus:text-green focus:bg-[#eee59f] focus:outline-none "
                 >
                   {menu}
