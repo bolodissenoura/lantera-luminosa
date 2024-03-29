@@ -71,6 +71,15 @@ const Home = () => {
         src="https://www.youtube-nocookie.com/embed/VQ-6WzP9vS4?controls=0&autoplay=0"
         src2="https://www.youtube.com/embed/D0UnqGm_miA"
       />
+      <div className="text-center text-lg">
+        Assista mais vídeos em
+        <a className="text-blue-400" href="https://www.instagram.com/institutolanternaluminosa/"
+          target="_blank"> @lanternaluminosa</a>,
+        <a className="text-blue-400" href="https://www.instagram.com/emmaresdesereios/"
+          target="_blank"> @emmaresdesereios </a>e
+        <a className="text-blue-400" href="https://www.instagram.com/conexoesreaispodcast/"
+          target="_blank"> @conexoesreaispodcast</a>.
+      </div>
       <SectionTitle pretitle="Testimonials" title="Depoimentos">
         Testimonails is a great way to increase the brand trust and awareness.
         Use this section to highlight your popular customers.
