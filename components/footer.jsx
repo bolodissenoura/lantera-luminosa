@@ -32,7 +32,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
+            <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0 transition-colors">
               {navigation.map((item, index) => (
                 <Link key={index} href={item.href} className="w-full px-4 py-2 text-gray-500 rounded-md  hover:text-[#1d272a] focus:bg-[#f9f4d1] focus:outline-none">                 
                     {item.label}
@@ -46,7 +46,7 @@ export default function Footer() {
               <a
                 href="https://www.facebook.com/institutolanternaluminosa"
                 target="_blank"
-                className="hover:text-green"
+                className="hover:text-green transition-colors"
                 rel="noopener">
                 <span className="sr-only">Facebook</span>
                 <Facebook />
@@ -54,9 +54,9 @@ export default function Footer() {
               <a
                 href="https://www.instagram.com/institutolanternaluminosa/"
                 target="_blank"
-                className="hover:text-green"
+                className="hover:text-green transition-colors"
                 rel="noopener">
-                <span className="sr-only">Instagram</span>
+                <span className="sr-only ">Instagram</span>
                 <Instagram />
               </a>
             </div>
