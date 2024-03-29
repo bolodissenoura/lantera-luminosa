@@ -20,6 +20,16 @@ const PopupWidget = () => {
 
   const userName = useWatch({ control, name: "name", defaultValue: "Alguém" });
 
+  const telInputKeyHandler = (e = Event) => {
+    const key = e.key;
+    const allowedKeys = ["Backspace", "Tab"];
+    let newValue = e.target.value.replace(/\D/g, "");
+
+    if (allowedKeys.includes(key)) return;
+    if (!/\d/gi.test(key)) return e.preventDefault();
+    if (newValue.length == 11) return e.preventDefault();
+  };
+
   const onSubmit = async (data, e) => {
     console.log(data);
     await fetch("https://api.web3forms.com/submit", {
@@ -240,12 +250,16 @@ const PopupWidget = () => {
                         Telefone / Whatsapp
                       </label>
                       <input
-                        type="number"
                         id="number"
+                        type="tel"
                         placeholder="(00) 00000-0000"
+                        onKeyDown={telInputKeyHandler}
                         {...register("number", {
                           required: "Número completo requerido",
-                          maxLength: 14,
+                          pattern: {
+                            value: /\d{11}/,
+                            message: "Número incompleto",
+                          },
                         })}
                         className={`custom-input w-full px-3 py-2 text-gray-600 placeholder-gray-300 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring   ${
                           errors.number
