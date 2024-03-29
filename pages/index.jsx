@@ -3,17 +3,17 @@ import Hero from "../components/hero";
 import Navbar from "../components/navbar";
 import SectionTitle from "../components/sectionTitle";
 
-import { benefitOne, benefitTwo } from "../components/data";
-import Video from "../components/video";
-import Benefits from "../components/benefits";
-import Footer from "../components/footer";
-import Testimonials from "../components/testimonials";
-import Cta from "../components/cta";
-import Faq from "../components/faq";
-import PopupWidget from "../components/popupWidget";
 import Image from "next/image";
-import Contribuidores from "../components/contribuidores";
 import Vaquinha from "../components/Vaquinha";
+import Benefits from "../components/benefits";
+import Contribuidores from "../components/contribuidores";
+import Cta from "../components/cta";
+import { benefitOne, benefitTwo } from "../components/data";
+import Faq from "../components/faq";
+import Footer from "../components/footer";
+import PopupWidget from "../components/popupWidget";
+import Testimonials from "../components/testimonials";
+import Video from "../components/video";
 
 const Home = () => {
   return (
@@ -52,7 +52,7 @@ const Home = () => {
       protagonismo. Contamos com a participação de voluntários, empresas
       públicas, mistas e privadas, secretarias governamentais, poder
       legislativo, judiciário e outras organizações do terceiro setor."
-      ></SectionTitle >
+      ></SectionTitle>
       <div className="bg-[#EDEDED]">
         <Benefits data={benefitOne} />
         <Benefits imgPos="right" data={benefitTwo} />
@@ -64,12 +64,12 @@ const Home = () => {
         don&apos;t forget to add one. Just like this.
       </SectionTitle>
       <Video
-        src="https://www.youtube-nocookie.com/embed/VQ-6WzP9vS4?controls=0&autoplay=0"
-        src2="https://www.youtube.com/embed/D0UnqGm_miA"
+        src="./video/VIDEO-2024-03-17-18-53-55.mp4"
+        src2="./video/VIDEO-2024-03-17-18-57-14.mp4"
       />
       <Video
-        src="https://www.youtube-nocookie.com/embed/VQ-6WzP9vS4?controls=0&autoplay=0"
-        src2="https://www.youtube.com/embed/D0UnqGm_miA"
+        src="./video/VIDEO-2024-03-17-18-58-16.mp4"
+        src2="./video/VIDEO-2024-03-17-18-44-35.mp4"
       />
       <SectionTitle pretitle="Testimonials" title="Depoimentos">
         Testimonails is a great way to increase the brand trust and awareness.
