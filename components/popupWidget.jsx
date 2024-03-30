@@ -19,7 +19,7 @@ const PopupWidget = () => {
   const [Message, setMessage] = useState('');
   const modalRef = useRef();
 
-  const userName = useWatch({ control, name: 'name', defaultValue: 'Alguém' });
+  const userName = useWatch({ control, name: "name", defaultValue: "Alguém" });
 
   const onSubmit = async (data, e) => {
     await fetch('https://api.web3forms.com/submit', {
@@ -246,33 +246,33 @@ const PopupWidget = () => {
                         )}
                       </div>
 
-                      <div className="mb-4">
-                        <label
-                          htmlFor="number"
-                          className="block mb-2 mt-4 text-sm text-gray-600"
-                        >
-                          Telefone / Whatsapp
-                        </label>
-                        <input
-                          type="number"
-                          id="number"
-                          placeholder="(00) 00000-0000"
-                          {...register('number', {
-                            required: 'Número completo requerido',
-                            maxLength: 14,
-                          })}
-                          className={`custom-input w-full px-3 py-2 text-gray-600 placeholder-gray-300 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring   ${
-                            errors.number
-                              ? 'border-red-600 focus:border-red-600 ring-red-100'
-                              : 'border-gray-300 focus:border-indigo-600 ring-indigo-100'
-                          }`}
-                        />
-                        {errors.number && (
-                          <div className="mt-1 text-sm text-red-400 invalid-feedback">
-                            {errors.number.message}
-                          </div>
-                        )}
-                      </div>
+                    <div className="mb-4">
+                      <label
+                        htmlFor="number"
+                        className="block mb-2 mt-4 text-sm text-gray-600"
+                      >
+                        Telefone / Whatsapp
+                      </label>
+                      <input
+                        type="number"
+                        id="number"
+                        placeholder="(00) 00000-0000"
+                        {...register("number", {
+                          required: "Número completo requerido",
+                          maxLength: 14,
+                        })}
+                        className={`custom-input w-full px-3 py-2 text-gray-600 placeholder-gray-300 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring   ${
+                          errors.number
+                            ? "border-red-600 focus:border-red-600 ring-red-100"
+                            : "border-gray-300 focus:border-indigo-600 ring-indigo-100"
+                        }`}
+                      />
+                      {errors.number && (
+                        <div className="mt-1 text-sm text-red-400 invalid-feedback">
+                          {errors.number.message}
+                        </div>
+                      )}
+                    </div>
 
                       <div className="mb-4">
                         <label
