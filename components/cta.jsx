@@ -1,4 +1,3 @@
-
 import React from "react";
 import Container from "./container";
 import usePopupStore from "./popupStore";
@@ -14,7 +13,25 @@ const Cta = () => {
             Ainda restou dúvidas? Chame a gente 👉🏻
           </h2>
           <p className="mt-2 font-medium text-white text-opacity-90 lg:text-base">
-            Ou então contate a presidente: +55 41 9164-1633 (Emanoelli)
+            Leve a palestra do Lanterna Luminosa para sua cidade ou empresa.
+            <br />
+            Entre em contato conosco pelo email:
+            <a
+              href="mailto:institutolanternaluminosa@gmail.com"
+              className="text-yellow hover:underline"
+              target="_blank"
+            >
+              institutolanternaluminosa@gmail.com
+            </a>
+            <br />
+            Ou então contate a presidente pelo WhatsAPP:
+            <a
+              href="https://wa.me/+554191641633"
+              className="text-yellow hover:underline"
+              target="_blank"
+            >
+              +55 41 9164-1633 (Emanoelli)
+            </a>
           </p>
           <p className="mt-2 font-medium text-yellow text-opacity-90 lg:text-xl">
             Não deixe para depois.
