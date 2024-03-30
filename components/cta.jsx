@@ -1,9 +1,9 @@
 import React from "react";
 import Container from "./container";
-import usePopupStore from './popupStore';
+import usePopupStore from "./popupStore";
 
 const Cta = () => {
-    const { togglePopup } = usePopupStore(); 
+  const { togglePopup } = usePopupStore();
 
   return (
     <Container>
@@ -12,20 +12,42 @@ const Cta = () => {
           <h2 className="text-2xl font-medium lg:text-3xl">
             Ainda restou dúvidas? Chame a gente 👉🏻
           </h2>
+          <p className="mt-2 font-medium text-white text-opacity-90 lg:text-base">
+            Leve a palestra do Lanterna Luminosa para sua cidade ou empresa.
+            <br />
+            Entre em contato conosco pelo email:
+            <a
+              href="mailto:institutolanternaluminosa@gmail.com"
+              className="text-yellow hover:underline"
+              target="_blank"
+            >
+              institutolanternaluminosa@gmail.com
+            </a>
+            <br />
+            Ou então contate a presidente pelo WhatsAPP:
+            <a
+              href="https://wa.me/+554191641633"
+              className="text-yellow hover:underline"
+              target="_blank"
+            >
+              +55 41 9164-1633 (Emanoelli)
+            </a>
+          </p>
           <p className="mt-2 font-medium text-yellow text-opacity-90 lg:text-xl">
             Não deixe para depois.
           </p>
         </div>
         <div className="flex-shrink-0 w-full text-center lg:w-auto">
           <button
-            onClick={togglePopup} 
-            className="inline-block py-3 mx-auto text-lg font-medium text-center text-green bg-white rounded-md px-7 lg:px-10 lg:py-5 ">
+            onClick={togglePopup}
+            className="inline-block py-3 mx-auto text-lg font-medium text-center text-green bg-white rounded-md px-7 lg:px-10 lg:py-5 "
+          >
             Contate nos
           </button>
         </div>
       </div>
     </Container>
   );
-}
+};
 
 export default Cta;

@@ -1,14 +1,10 @@
-import {
-  HeartIcon,
-  FaceFrownIcon,
-} from "@heroicons/react/24/solid";
-
+import { HeartIcon, FaceFrownIcon } from "@heroicons/react/24/solid";
 
 import benefitOneImg from "../public/img/dataphoto1.jpg";
 import benefitTwoImg from "../public/img/dataphoto2.jpg";
 
 const benefitOne = {
-  title: "Compreensão Profunda ❤️",
+  title: "Compreensão Profunda",
   desc: "O Instituto Lanterna Luminosa (ILL) dedica-se ao combate do abuso contra mulheres e seus filhos, proporcionando apoio abrangente para um reinício seguro e saudável em diversas áreas da vida.",
   image: benefitOneImg,
   bullets: [
@@ -19,7 +15,7 @@ const benefitOne = {
     },
     {
       title: "A violência",
-      desc: "A violência de gênero atinge mulheres em todas as esferas da vida, perpetuando um ciclo de sofrimento que exige ação imediata.",
+      desc: "Estão previstos cinco tipos de violência doméstica e familiar contra a mulher na Lei Maria da Penha: física, psicológica, moral, sexual, patrimonial.",
       icon: <FaceFrownIcon />,
     },
     {
@@ -27,12 +23,16 @@ const benefitOne = {
       desc: "O medo de denunciar os agressores muitas vezes silencia as vítimas, ressaltando a necessidade urgente de centros de orientação e apoio.",
       icon: <FaceFrownIcon />,
     },
+    {
+      title: "As dependências",
+      desc: "Muitas vezes as mulheres não conseguem sair das relações abusivas e não conseguem se libertar do parceiro abusador por conta da dependência emocional que a prende a situação e por conta da dependência financeira, visto que tantas mulheres abrem mão de sua vida profissional para cuidar de seus filhos e do parceiro, e consequentemente ficam sem recursos financeiros para se sustentarem em caso de separação.",
+      icon: <FaceFrownIcon/>,
+    },
   ],
 };
 
-
 const benefitTwo = {
-  title: "Voz com poder ☀️",
+  title: "Voz com poder",
   desc: "Engajado na promoção do empoderamento feminino, o ILL trabalha incansavelmente para desafiar e superar a triste realidade do abuso contra mulheres, oferecendo um suporte holístico para reinícios vibrantes e saudáveis.",
   image: benefitTwoImg,
   bullets: [
@@ -50,9 +50,12 @@ const benefitTwo = {
       title: "Coragem que Inspira",
       desc: "A coragem de denunciar abusos, mesmo diante do medo, é um testemunho inspirador da força interior das mulheres, ressaltando a necessidade premente de centros de apoio e orientação para encorajar e fortalecer.",
       icon: <HeartIcon />,
+    },{
+      title: "Autonomia que liberta",
+      desc: "O ILL incentiva e auxilia a mulher a alcançar  ou resgatar a autonomia em todas as áreas de sua vida: emocional, intelectual, profissional e financeira.",
+      icon: <HeartIcon />,
     },
   ],
 };
 
-
-export {benefitOne, benefitTwo};
+export { benefitOne, benefitTwo };
