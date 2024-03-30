@@ -9,19 +9,19 @@ const Contribuidores = () => {
       </div>
 
       <div className="flex flex-wrap justify-center gap-5 mt-10 md:justify-around">
-        <div className="pt-2 text-gray-400 dark:text-gray-400">
+        <div className="pt-2 text-gray-400 dark:text-gray-400 hover:text-inherit transition-colors">
           <AmazonLogo />
         </div>
-        <div className="text-gray-400 dark:text-gray-400">
+        <div className="text-gray-400 dark:text-gray-400 hover:text-inherit transition-colors">
           <VerizonLogo />
         </div>
-        <div className="text-gray-400 dark:text-gray-400">
+        <div className="text-gray-400 dark:text-gray-400 hover:text-inherit transition-colors">
           <MicrosoftLogo />
         </div>
-        <div className="pt-1 text-gray-400 dark:text-gray-400">
+        <div className="pt-1 text-gray-400 dark:text-gray-400 hover:text-inherit transition-colors">
           <NetflixLogo />
         </div>
-        <div className="pt-2 text-gray-400 dark:text-gray-400">
+        <div className="pt-2 text-gray-400 dark:text-gray-400 hover:text-inherit transition-colors">
           <SonyLogo />
         </div>
       </div>
