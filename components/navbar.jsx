@@ -6,8 +6,7 @@ import { useRouter } from 'next/router';
 
 const Navbar = () => {
   const { pathname } = useRouter();
-  const navigation =
-    pathname === '/idealizadora' ? ['Voltar'] : ['Sobre o Instituto'];
+  const navigation = pathname === "/idealizadora" ? ["Voltar"] : ["Sobre o Instituto"];
   const { togglePopup } = usePopupStore();
 
   return (

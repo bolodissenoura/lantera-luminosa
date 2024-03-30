@@ -7,7 +7,7 @@ const idealizadora = () => {
     <>
       <Navbar />
       <main className="text-center py-[25%]">
-        Um texto sobre a idealizadora.
+        Um texto sobre o instituto.
       </main>
       <Footer />
       <PopupWidget />
