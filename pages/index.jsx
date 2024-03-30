@@ -67,6 +67,15 @@ const Home = () => {
         src="./video/VIDEO-2024-03-17-18-58-16.mp4"
         src2="./video/VIDEO-2024-03-17-18-44-35.mp4"
       />
+      <div className="text-center text-lg">
+        Assista mais vídeos em
+        <a className="text-blue-400" href="https://www.instagram.com/institutolanternaluminosa/"
+          target="_blank"> @lanternaluminosa</a>,
+        <a className="text-blue-400" href="https://www.instagram.com/emmaresdesereios/"
+          target="_blank"> @emmaresdesereios </a>e
+        <a className="text-blue-400" href="https://www.instagram.com/conexoesreaispodcast/"
+          target="_blank"> @conexoesreaispodcast</a>.
+      </div>
       <SectionTitle pretitle="Testimonials" title="Depoimentos">
         Testimonails is a great way to increase the brand trust and awareness.
         Use this section to highlight your popular customers.
