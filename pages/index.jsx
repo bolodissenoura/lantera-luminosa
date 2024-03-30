@@ -64,10 +64,6 @@ const Home = () => {
         don&apos;t forget to add one. Just like this.
       </SectionTitle>
       <Video
-        src="./video/VIDEO-2024-03-17-18-53-55.mp4"
-        src2="./video/VIDEO-2024-03-17-18-57-14.mp4"
-      />
-      <Video
         src="./video/VIDEO-2024-03-17-18-58-16.mp4"
         src2="./video/VIDEO-2024-03-17-18-44-35.mp4"
       />
