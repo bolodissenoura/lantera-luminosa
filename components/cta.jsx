@@ -13,9 +13,10 @@ const Cta = () => {
             Ainda restou dúvidas? Chame a gente 👉🏻
           </h2>
           <p className="mt-2 font-medium text-white text-opacity-90 lg:text-base">
-            Leve a palestra do Lanterna Luminosa para sua cidade ou empresa.
+            {/*Fiquem a vontade para alterar.É apenas uma ideia*/ }
+            Transforme seu evento com a Palestra Lanterna Luminosa! 
             <br />
-            Entre em contato conosco pelo email:
+            Entre em contato conosco: 
             <a
               href="mailto:institutolanternaluminosa@gmail.com"
               className="text-yellow hover:underline"
