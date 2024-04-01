@@ -36,19 +36,19 @@ const Faq = () => {
 const faqdata = [
   {
     question: "Onde o Instituto se localiza?",
-    answer: "Nossa ONG atua atualmente no Brasil todo",
+    answer: "Nossa ONG atualmente atua no Brasil todo.",
   },
   {
     question: "Como faço para me voluntariar?",
     answer: "Disponibilizamos um formulário no topo do site para entrar em contato, também temos nossas redes sociais.",
   },
   {
-    question: "Quem fundou a Instituto?",
+    question: "Quem fundou o Instituto?",
     answer:
       "Nome do fundador do Instituto.",
   },
   {
-    question: "Nossa história? ",
+    question: "Conheça nossa história.",
     answer:
       "História do instituto.",
   },
