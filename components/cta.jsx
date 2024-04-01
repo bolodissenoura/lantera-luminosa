@@ -35,7 +35,7 @@ const Cta = () => {
             </a>
           </p>
           <p className="mt-2 font-medium text-yellow text-opacity-90 lg:text-xl">
-            Não deixe para depois.
+            Não deixe para depois!
           </p>
         </div>
         <div className="flex-shrink-0 w-full text-center lg:w-auto">
