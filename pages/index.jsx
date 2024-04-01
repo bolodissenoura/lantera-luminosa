@@ -1,19 +1,19 @@
-import Head from "next/head";
-import Hero from "../components/hero";
-import Navbar from "../components/navbar";
-import SectionTitle from "../components/sectionTitle";
+import Head from 'next/head';
+import Hero from '../components/hero';
+import Navbar from '../components/navbar';
+import SectionTitle from '../components/sectionTitle';
 
-import Image from "next/image";
-import Vaquinha from "../components/Vaquinha";
-import Benefits from "../components/benefits";
-import Contribuidores from "../components/contribuidores";
-import Cta from "../components/cta";
-import { benefitOne, benefitTwo } from "../components/data";
-import Faq from "../components/faq";
-import Footer from "../components/footer";
-import PopupWidget from "../components/popupWidget";
-import Testimonials from "../components/testimonials";
-import Video from "../components/video";
+import Image from 'next/image';
+import Vaquinha from '../components/Vaquinha';
+import Benefits from '../components/benefits';
+import Contribuidores from '../components/contribuidores';
+import Cta from '../components/cta';
+import { benefitOne, benefitTwo } from '../components/data';
+import Faq from '../components/faq';
+import Footer from '../components/footer';
+import PopupWidget from '../components/popupWidget';
+import Testimonials from '../components/testimonials';
+import Video from '../components/video';
 
 const Home = () => {
   return (
@@ -58,7 +58,7 @@ const Home = () => {
         <Benefits imgPos="right" data={benefitTwo} />
         <Vaquinha />
       </div>
-      <SectionTitle pretitle="Watch a video" title="Nossos vídeos">
+      <SectionTitle pretitle="Watch a video" title="Nossos vídeos:">
         This section is to highlight a promo or demo video of your product.
         Analysts says a landing page with video has 3% more conversion rate. So,
         don&apos;t forget to add one. Just like this.
@@ -68,13 +68,34 @@ const Home = () => {
         src2="./video/VIDEO-2024-03-17-18-44-35.mp4"
       />
       <div className="text-center text-lg">
-        Assista mais vídeos em
-        <a className="text-blue-400" href="https://www.instagram.com/institutolanternaluminosa/"
-          target="_blank"> @lanternaluminosa</a>,
-        <a className="text-blue-400" href="https://www.instagram.com/emmaresdesereios/"
-          target="_blank"> @emmaresdesereios </a>e
-        <a className="text-blue-400" href="https://www.instagram.com/conexoesreaispodcast/"
-          target="_blank"> @conexoesreaispodcast</a>.
+        Assista mais vídeos em:
+        <a
+          className="text-blue-400 font-semibold hover:font-bold"
+          href="https://www.instagram.com/institutolanternaluminosa/"
+          target="_blank"
+        >
+          {' '}
+          @lanternaluminosa
+        </a>
+        ,
+        <a
+          className="text-blue-400 font-semibold hover:font-bold"
+          href="https://www.instagram.com/emmaresdesereios/"
+          target="_blank"
+        >
+          {' '}
+          @emmaresdesereios{' '}
+        </a>
+        e
+        <a
+          className="text-blue-400 font-semibold hover:font-bold"
+          href="https://www.instagram.com/conexoesreaispodcast/"
+          target="_blank"
+        >
+          {' '}
+          @conexoesreaispodcast
+        </a>
+        .
       </div>
       <SectionTitle pretitle="Testimonials" title="Depoimentos">
         Testimonails is a great way to increase the brand trust and awareness.

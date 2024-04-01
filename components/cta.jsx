@@ -1,6 +1,6 @@
-import React from "react";
-import Container from "./container";
-import usePopupStore from "./popupStore";
+import React from 'react';
+import Container from './container';
+import usePopupStore from './popupStore';
 
 const Cta = () => {
   const { togglePopup } = usePopupStore();
@@ -10,26 +10,30 @@ const Cta = () => {
       <div className="flex flex-wrap items-center justify-between w-full max-w-4xl gap-5 mx-auto text-white bg-green px-7 py-7 lg:px-12 lg:py-12 lg:flex-nowrap rounded-xl">
         <div className="flex-grow text-center lg:text-left">
           <h2 className="text-2xl font-medium lg:text-3xl">
-            Ainda restou dúvidas? Chame a gente 👉🏻
+            Ainda restou dúvidas? Chame a gente!
           </h2>
           <p className="mt-2 font-medium text-white text-opacity-90 lg:text-base">
-            Leve a palestra do Lanterna Luminosa para sua cidade ou empresa.
+            Leve a palestra do{' '}
+            <span className="font-bold">Lanterna Luminosa </span>
+            para sua cidade ou empresa.
             <br />
             Entre em contato conosco pelo email:
             <a
               href="mailto:institutolanternaluminosa@gmail.com"
-              className="text-yellow hover:underline"
+              className="text-yellow hover:underline font-bold"
               target="_blank"
             >
+              {' '}
               institutolanternaluminosa@gmail.com
             </a>
             <br />
-            Ou então contate a presidente pelo WhatsAPP:
+            Ou então contate a presidente pelo WhatsApp:
             <a
               href="https://wa.me/+554191641633"
-              className="text-yellow hover:underline"
+              className="text-yellow hover:underline font-bold"
               target="_blank"
             >
+              {' '}
               +55 41 9164-1633 (Emanoelli)
             </a>
           </p>

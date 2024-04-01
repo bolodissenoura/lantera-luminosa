@@ -1,7 +1,7 @@
-import React from "react";
-import Container from "./container";
-import { Disclosure } from "@headlessui/react";
-import { ChevronUpIcon } from "@heroicons/react/24/solid";
+import React from 'react';
+import Container from './container';
+import { Disclosure } from '@headlessui/react';
+import { ChevronUpIcon } from '@heroicons/react/24/solid';
 
 const Faq = () => {
   return (
@@ -16,7 +16,7 @@ const Faq = () => {
                     <span>{item.question}</span>
                     <ChevronUpIcon
                       className={`${
-                        open ? "transform rotate-180" : ""
+                        open ? 'transform rotate-180' : ''
                       } w-5 h-5 text-yellow`}
                     />
                   </Disclosure.Button>
@@ -31,26 +31,25 @@ const Faq = () => {
       </div>
     </Container>
   );
-}
+};
 
 const faqdata = [
   {
-    question: "Onde o Instituto se localiza?",
-    answer: "Nossa ONG atua atualmente no Brasil todo",
+    question: 'Onde o Instituto se localiza?',
+    answer: 'Nossa ONG está presente em todo o território brasileiro',
   },
   {
-    question: "Como faço para me voluntariar?",
-    answer: "Disponibilizamos um formulário no topo do site para entrar em contato, também temos nossas redes sociais.",
-  },
-  {
-    question: "Quem fundou a Instituto?",
+    question: 'Como faço para me voluntariar?',
     answer:
-      "Nome do fundador do Instituto.",
+      'Disponibilizamos um formulário no topo do site para entrar em contato, também temos nossas redes sociais.',
   },
   {
-    question: "Nossa história? ",
-    answer:
-      "História do instituto.",
+    question: 'Quem fundou a Instituto?',
+    answer: 'Nome do fundador do Instituto.',
+  },
+  {
+    question: 'Nossa história? ',
+    answer: 'História do instituto.',
   },
 ];
 
