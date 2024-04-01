@@ -42,16 +42,6 @@ const faqdata = [
     question: "Como faço para me voluntariar?",
     answer: "Disponibilizamos um formulário no topo do site para entrar em contato, também temos nossas redes sociais.",
   },
-  {
-    question: "Quem fundou o Instituto?",
-    answer:
-      "Nome do fundador do Instituto.",
-  },
-  {
-    question: "Conheça nossa história.",
-    answer:
-      "História do instituto.",
-  },
 ];
 
 export default Faq;
