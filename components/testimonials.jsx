@@ -13,7 +13,7 @@ const Testimonials  = () => {
         <div className="lg:col-span-2 xl:col-auto">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14">
             <p className="text-2xl font-primary leading-normal ">
-            Ele quebrou meu braço, fui parar no hospital. Depois, abrigada na casa de parentes busquei. Elas me acompanharam, deram todo o apoio, amenizando as minhas dores até nos dias em que sinto nem quero mais viver. Este trabalho significou muito pra mim e, com certeza, está ajudando muitas mulheres. 
+            Ele quebrou meu braço, fui parar no hospital. Depois, abrigada na casa de parentes, busquei ajuda. Elas me acompanharam e deram todo o apoio, amenizando as minhas dores até nos dias em que sinto que nem quero mais viver. Esse trabalho significou muito pra mim e, com certeza, está ajudando muitas mulheres. 
             </p>
 
             <Avatar
@@ -26,7 +26,7 @@ const Testimonials  = () => {
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14">
             <p className="text-2xl font-primary leading-normal ">
-            Descobri o horror de ser violentada, oprimida e deprimida. Me senti impotente! acolhimento, elas me ouviram, me defenderam em todas as audiências e estiveram comigo até o fim do processo porque são mulheres que entendem outras mulheres, sabem das nossas dores e lutam pelos mesmos ideias que os nossos.
+            Descobri o horror de ser violentada, oprimida e deprimida. Me senti impotente! Durante o acolhimento, elas me ouviram, me defenderam em todas as audiências e estiveram comigo até o fim do processo porque são mulheres que entendem outras mulheres, sabem das nossas dores e lutam pelos mesmos ideias que os nossos.
             </p>
 
             <Avatar
@@ -39,7 +39,7 @@ const Testimonials  = () => {
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14">
             <p className="text-2xl font-primary leading-normal ">
-            Tinha acabado de sofrer abusos e maus tratos do meu ex parceiro, sem dinheiro para pagar advogados, fui apresentada a elas por uma pessoa do Ministério Público. Eu serei eternamente grata a todo o grupo por tudo o que fizeram e fazem por mim e por todas as mulheres que passam por momentos tão humilhantes, difíceis e cruéis nessa sociedade machista.
+            Tinha acabado de sofrer abusos e maus tratos do meu ex-parceiro. Sem dinheiro para pagar advogados, fui apresentada a elas por uma pessoa do Ministério Público. Eu serei eternamente grata a todo o grupo por tudo o que fizeram e fazem por mim e por todas as mulheres que passam por momentos tão humilhantes, difíceis e cruéis nessa sociedade machista.
             </p>
 
             <Avatar

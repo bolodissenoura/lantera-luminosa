@@ -10,12 +10,12 @@ const Cta = () => {
       <div className="flex flex-wrap items-center justify-between w-full max-w-4xl gap-5 mx-auto text-white bg-green px-7 py-7 lg:px-12 lg:py-12 lg:flex-nowrap rounded-xl">
         <div className="flex-grow text-center lg:text-left">
           <h2 className="text-2xl font-medium lg:text-3xl">
-            Ainda restou dúvidas? Chame a gente 👉🏻
+            Ainda restam dúvidas? Chame a gente 👉🏻
           </h2>
           <p className="mt-2 font-medium text-white text-opacity-90 lg:text-base">
-            {/*Fiquem a vontade para alterar.É apenas uma ideia*/ }
              Dê voz às mulheres: traga nossa palestra para sua comunidade ou empresa. 
-             Entre em contato conosco:
+             Entre em contato conosco pelo e-mail: 
+          </p>
             <br /> 
             <a
               href="mailto:institutolanternaluminosa@gmail.com"
@@ -25,15 +25,15 @@ const Cta = () => {
               institutolanternaluminosa@gmail.com
             </a>
             <br />
-            Ou então contate a presidente pelo WhatsAPP:
+            Ou contate a presidente pelo WhatsApp: 
             <a
               href="https://wa.me/+554191641633"
               className="text-yellow hover:underline"
               target="_blank"
             >
-              +55 41 9164-1633 (Emanoelli)
+              +55 (41) 9164-1633 (Emanoelli)
             </a>
-          </p>
+          
           <p className="mt-2 font-medium text-yellow text-opacity-90 lg:text-xl">
              Não deixe para depois!
           </p>
@@ -43,7 +43,7 @@ const Cta = () => {
             onClick={togglePopup}
             className="inline-block py-3 mx-auto text-lg font-medium text-center text-green bg-white rounded-md px-7 lg:px-10 lg:py-5 "
           >
-            Contate nos
+            Contate-nos
           </button>
         </div>
       </div>
