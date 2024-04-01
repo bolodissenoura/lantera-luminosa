@@ -14,8 +14,8 @@ const Cta = () => {
           </h2>
           <p className="mt-2 font-medium text-white text-opacity-90 lg:text-base">
             {/*Fiquem a vontade para alterar.É apenas uma ideia*/ }
-            Dê voz às mulheres: traga nossa palestra para sua comunidade ou empresa. 
-            Entre em contato conosco:
+             Dê voz às mulheres: traga nossa palestra para sua comunidade ou empresa. 
+             Entre em contato conosco:
             <br /> 
             <a
               href="mailto:institutolanternaluminosa@gmail.com"
