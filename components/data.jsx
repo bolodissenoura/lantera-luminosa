@@ -15,7 +15,7 @@ const benefitOne = {
     },
     {
       title: "A violência",
-      desc: "Estão previstos cinco tipos de violência doméstica e familiar contra a mulher na Lei Maria da Penha: física, psicológica, moral, sexual, patrimonial.",
+      desc: "Estão previstos cinco tipos de violência doméstica e familiar contra a mulher na Lei Maria da Penha: física, psicológica, moral, sexual e patrimonial.",
       icon: <FaceFrownIcon />,
     },
     {
@@ -25,7 +25,7 @@ const benefitOne = {
     },
     {
       title: "As dependências",
-      desc: "Muitas vezes as mulheres não conseguem sair das relações abusivas e não conseguem se libertar do parceiro abusador por conta da dependência emocional que a prende a situação e por conta da dependência financeira, visto que tantas mulheres abrem mão de sua vida profissional para cuidar de seus filhos e do parceiro, e consequentemente ficam sem recursos financeiros para se sustentarem em caso de separação.",
+      desc: "Muitas vezes as mulheres não conseguem sair das relações abusivas e se libertar do parceiro abusador por conta da dependência emocional e financeira que as prendem à situação, visto que tantas mulheres abrem mão de sua vida profissional para cuidar de seus filhos e do parceiro, consequentemente, ficando sem recursos financeiros para se sustentar em caso de separação.",
       icon: <FaceFrownIcon/>,
     },
   ],
@@ -48,7 +48,7 @@ const benefitTwo = {
     },
     {
       title: "Coragem que Inspira",
-      desc: "A coragem de denunciar abusos, mesmo diante do medo, é um testemunho inspirador da força interior das mulheres, ressaltando a necessidade premente de centros de apoio e orientação para encorajar e fortalecer.",
+      desc: "A coragem de denunciar abusos mesmo diante do medo é um testemunho inspirador da força interior das mulheres, ressaltando a necessidade premente de centros de apoio e orientação para encorajar e fortalecer.",
       icon: <HeartIcon />,
     },{
       title: "Autonomia que liberta",

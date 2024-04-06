@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Container from './container';
 import { Disclosure } from '@headlessui/react';
@@ -14,7 +15,7 @@ const Faq = () => {
                 <>
                   <Disclosure.Button className="flex bg-green items-center font-primary justify-between w-full px-4 py-4 text-lg text-left text-white rounded-lg hover:bg-[#1b4023] focus:outline-none focus-visible:ring focus-visible:ring-indigo-100 focus-visible:ring-opacity-75 transition-colors">
                     <span>{item.question}</span>
-                    <ChevronUpIcon
+                    <ChevronRightIcon
                       className={`${
                         open ? 'transform rotate-180' : ''
                       } w-5 h-5 text-yellow`}
