@@ -18,7 +18,9 @@ import Video from "../components/video";
 const Home = () => {
   return (
     <>
-      <Head />
+      <Head>
+        <title>Home | Instituto Lanterna Luminosa</title>
+      </Head>
       <Navbar />
       <Hero />
       <Image

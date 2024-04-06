@@ -1,6 +1,7 @@
 import React from "react";
 import Container from "./container";
 import usePopupStore from "./popupStore";
+import Link from "next/link";
 
 const Cta = () => {
   const { togglePopup } = usePopupStore();
@@ -13,28 +14,29 @@ const Cta = () => {
             Ainda restam dúvidas? Chame a gente 👉🏻
           </h2>
           <p className="mt-2 font-medium text-white text-opacity-90 lg:text-base">
-            Leve a palestra do Lanterna Luminosa para a sua cidade ou empresa.
-            <br />
-            Entre em contato conosco pelo e-mail: 
-            <a
+             Dê voz às mulheres: traga nossa palestra para sua comunidade ou empresa. 
+             Entre em contato conosco pelo e-mail: 
+          </p>
+            <br /> 
+            <Link
               href="mailto:institutolanternaluminosa@gmail.com"
               className="text-yellow hover:underline"
               target="_blank"
             >
               institutolanternaluminosa@gmail.com
-            </a>
+            </Link>
             <br />
             Ou contate a presidente pelo WhatsApp: 
-            <a
+            <Link
               href="https://wa.me/+554191641633"
               className="text-yellow hover:underline"
               target="_blank"
             >
               +55 (41) 9164-1633 (Emanoelli)
-            </a>
-          </p>
+            </Link>
+          
           <p className="mt-2 font-medium text-yellow text-opacity-90 lg:text-xl">
-            Não deixe para depois.
+             Não deixe para depois!
           </p>
         </div>
         <div className="flex-shrink-0 w-full text-center lg:w-auto">
