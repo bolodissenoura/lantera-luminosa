@@ -2,6 +2,7 @@ import React from 'react';
 import Container from './container';
 import usePopupStore from './popupStore';
 import Link from 'next/link';
+import Link from 'next/link';
 
 const Cta = () => {
   const { togglePopup } = usePopupStore();
