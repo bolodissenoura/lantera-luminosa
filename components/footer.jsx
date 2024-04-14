@@ -8,34 +8,35 @@ import { Twitter } from './icons/Twitter';
 import { Linkedin } from './icons/Linkedin';
 
 export default function Footer() {
-  const className = 'flex mt-5 space-x-5 text-gray-400 dark:text-gray-500',
+  const className = "flex mt-5 space-x-5 text-gray-400 dark:text-gray-500",
     navigation = [
-      { label: 'Home', href: '/' },
-      { label: 'Idealizadora', href: '/idealizadora' },
+      { label: "Home", href: "/" },
+      { label: "Idealizadora", href: "/idealizadora" },
     ];
   return (
     <div className="relative bg-[#EDEDED]">
       <Container>
         <div className="grid max-w-screen-xl grid-cols-1 gap-10 mx-auto mt-5 dark:border-black lg:grid-cols-4">
-          <div className="lg:col-span-2">
-            <div>
-              {' '}
-              <Link
-                href="/"
-                className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100 max-w-max"
-              >
-                <Image
-                  src="/img/logo.png"
-                  alt="N"
-                  width="128"
-                  height="128"
-                  className="w-22"
-                />
-              </Link>
-            </div>
-
-            <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
-              Instituto Lanterna Luminosa
+          <div className="lg:col-span-2 flex items-start">
+            <div className="inline-block flex flex-col items-center">
+              <div>
+                {" "}
+                <Link
+                  href="/"
+                  className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100"
+                >
+                  <Image
+                    src="/img/logo.png"
+                    alt="N"
+                    width="128"
+                    height="128"
+                    className="w-22"
+                  />
+                </Link>
+              </div>
+              <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
+                Instituto Lanterna Luminosa
+              </div>
             </div>
           </div>
 
@@ -45,7 +46,7 @@ export default function Footer() {
                 <Link
                   key={index}
                   href={item.href}
-                  className="w-full px-4 py-2 text-gray-500 rounded-md  hover:text-[#1d272a] focus:bg-[#f9f4d1] focus:outline-none max-w-max"
+                  className="w-full px-4 py-2 text-gray-500 rounded-md  hover:text-[#1d272a] focus:bg-[#f9f4d1] focus:outline-none"
                 >
                   {item.label}
                 </Link>
