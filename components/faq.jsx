@@ -1,7 +1,8 @@
-import React from "react";
-import Container from "./container";
-import { Disclosure } from "@headlessui/react";
-import { ChevronRightIcon } from "@heroicons/react/24/solid";
+
+import React from 'react';
+import Container from './container';
+import { Disclosure } from '@headlessui/react';
+import { ChevronRightIcon } from '@heroicons/react/24/solid';
 
 const Faq = () => {
   return (
@@ -16,7 +17,7 @@ const Faq = () => {
                     <span>{item.question}</span>
                     <ChevronRightIcon
                       className={`${
-                        open ? "transform rotate-90" : ""
+                        open ? 'transform rotate-90' : ''
                       } w-5 h-5 text-yellow`}
                     />
                   </Disclosure.Button>
@@ -31,16 +32,17 @@ const Faq = () => {
       </div>
     </Container>
   );
-}
+};
 
 const faqdata = [
   {
-    question: "Onde o Instituto se localiza?",
-    answer: "Nossa ONG atualmente atua no Brasil todo.",
+    question: 'Onde o Instituto se localiza?',
+    answer: 'Nossa ONG está presente em todo o território brasileiro.',
   },
   {
-    question: "Como faço para me voluntariar?",
-    answer: "Disponibilizamos um formulário no topo do site para entrar em contato, também temos nossas redes sociais.",
+    question: 'Como faço para me voluntariar?',
+    answer:
+      'Disponibilizamos um formulário no topo do site para entrar em contato, também temos nossas redes sociais.',
   },
 ];
 

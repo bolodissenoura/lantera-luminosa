@@ -1,16 +1,22 @@
-import React from "react";
-import Container from "./container";
+import React from 'react';
+import Container from './container';
 
 const SectionTitle = (props) => {
   return (
     <Container
-        className={`flex w-full flex-col ${props.align === "left" ? "" : "items-center justify-center text-left font-medium"}`}
-      >
-        {props.title && (
-          <h2 className={`max-w-2xl  text-3xl font-primary leading-snug tracking-tight lg:leading-tight lg:text-4xl ${props.titleClassName}`}>
-            {props.title}
-          </h2>
-        )}
+      className={`flex w-full flex-col ${
+        props.align === 'left'
+          ? ''
+          : 'items-center justify-center text-left font-medium'
+      }`}
+    >
+      {props.title && (
+        <h2
+          className={`max-w-2xl  text-3xl font-primary leading-snug tracking-tight lg:leading-tight lg:text-4xl ${props.titleClassName}`}
+        >
+          {props.title}
+        </h2>
+      )}
 
       {props.paragraph1 && (
         <p className="max-w-6xl pt-10 font-primary  text-lg leading-normal text-gray-500 lg:text-xl xl:text-xl">

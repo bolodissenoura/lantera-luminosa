@@ -1,7 +1,7 @@
-import React from "react";
-import Container from "./container";
-import usePopupStore from "./popupStore";
-import Link from "next/link";
+import React from 'react';
+import Container from './container';
+import usePopupStore from './popupStore';
+import Link from 'next/link';
 
 const Cta = () => {
   const { togglePopup } = usePopupStore();
@@ -11,32 +11,29 @@ const Cta = () => {
       <div className="flex flex-wrap items-center justify-between w-full max-w-4xl gap-5 mx-auto text-white bg-green px-7 py-7 lg:px-12 lg:py-12 lg:flex-nowrap rounded-xl">
         <div className="flex-grow text-center lg:text-left">
           <h2 className="text-2xl font-medium lg:text-3xl">
-            Ainda restam dúvidas? Chame a gente 👉🏻
+            Ainda restou dúvidas? Chame a gente!
           </h2>
           <p className="mt-2 font-medium text-white text-opacity-90 lg:text-base">
-             Dê voz às mulheres: traga nossa palestra para sua comunidade ou empresa. 
-             Entre em contato conosco pelo e-mail: 
+            Dê voz às mulheres: traga nossa palestra para sua comunidade ou
+            empresa. Entre em contato conosco pelo e-mail:
           </p>
-            <br /> 
-            <Link
-              href="mailto:institutolanternaluminosa@gmail.com"
-              className="text-yellow hover:underline"
-              target="_blank"
-            >
-              institutolanternaluminosa@gmail.com
-            </Link>
-            <br />
-            Ou contate a presidente pelo WhatsApp: 
-            <Link
-              href="https://wa.me/+554191641633"
-              className="text-yellow hover:underline"
-              target="_blank"
-            >
-              +55 (41) 9164-1633 (Emanoelli)
-            </Link>
-          
+          <Link
+            href="mailto:institutolanternaluminosa@gmail.com"
+            className="text-yellow hover:underline font-bold"
+            target="_blank"
+          >
+            institutolanternaluminosa@gmail.com
+          </Link>
+          Ou contate a presidente pelo WhatsApp:
+          <Link
+            href="https://wa.me/+554191641633"
+            className="text-yellow hover:underline font-bold"
+            target="_blank"
+          >
+            +55 (41) 9164-1633 (Emanoelli)
+          </Link>
           <p className="mt-2 font-medium text-yellow text-opacity-90 lg:text-xl">
-             Não deixe para depois!
+            Não deixe para depois!
           </p>
         </div>
         <div className="flex-shrink-0 w-full text-center lg:w-auto">

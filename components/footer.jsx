@@ -1,11 +1,11 @@
-import Link from "next/link";
-import Image from "next/image";
-import React from "react";
-import Container from "./container";
-import { Instagram } from "./icons/Instagram";
-import { Facebook } from "./icons/Facebook";
-import { Twitter } from "./icons/Twitter";
-import { Linkedin } from "./icons/Linkedin";
+import Link from 'next/link';
+import Image from 'next/image';
+import React from 'react';
+import Container from './container';
+import { Instagram } from './icons/Instagram';
+import { Facebook } from './icons/Facebook';
+import { Twitter } from './icons/Twitter';
+import { Linkedin } from './icons/Linkedin';
 
 export default function Footer() {
   const className = "flex mt-5 space-x-5 text-gray-400 dark:text-gray-500",
@@ -34,8 +34,6 @@ export default function Footer() {
                   />
                 </Link>
               </div>
-
-
               <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
                 Instituto Lanterna Luminosa
               </div>
@@ -43,7 +41,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0 transition-colors">
+            <div className="flex flex-col flex-wrap w-full -mt-2 -ml-3 lg:ml-0 transition-colors">
               {navigation.map((item, index) => (
                 <Link
                   key={index}
@@ -65,7 +63,7 @@ export default function Footer() {
                 rel="noopener"
               >
                 <span className="sr-only">Facebook</span>
-                <Facebook size={24} color={"currentColor"}/>
+                <Facebook size={24} color={'currentColor'} />
               </a>
               <a
                 href="https://www.instagram.com/institutolanternaluminosa/"
@@ -74,7 +72,7 @@ export default function Footer() {
                 rel="noopener"
               >
                 <span className="sr-only ">Instagram</span>
-                <Instagram size={24} color={"currentColor"}/>
+                <Instagram size={24} color={'currentColor'} />
               </a>
             </div>
           </div>

@@ -1,7 +1,7 @@
-import React from "react";
-import Container from "./container";
-import Link from "next/link";
-import { Instagram } from "./icons/Instagram";
+import React from 'react';
+import Container from './container';
+import Link from 'next/link';
+import { Instagram } from './icons/Instagram';
 
 const Video = (props) => {
   return (
@@ -20,7 +20,7 @@ const Video = (props) => {
       <div className="flex flex-wrap items-center justify-center max-w-3xl gap-5 mx-auto mt-14 text-white bg-green px-4 py-4 lg:px-8 lg:py-8 lg:flex-nowrap rounded-xl">
         <div className="flex-grow text-center lg:text-left">
           <h2 className="text-2xl font-medium lg:text-3xl text-yellow">
-            Assista mais vídeos em 👉🏻
+            Assista mais vídeos em:
           </h2>
         </div>
         <div className="font-medium text-white lg:text-base">
@@ -31,8 +31,8 @@ const Video = (props) => {
             rel="noopener"
           >
             <span className="sr-only">Instagram</span>
-            <Instagram size={24} color={"currentColor"}/> 
-            @emmaresdesereios 
+            <Instagram size={24} color={'currentColor'} />
+            @emmaresdesereios
           </Link>
           <Link
             href="https://www.instagram.com/institutolanternaluminosa/"
@@ -41,7 +41,7 @@ const Video = (props) => {
             rel="noopener"
           >
             <span className="sr-only">Instagram</span>
-            <Instagram size={24} color={"currentColor"}/> 
+            <Instagram size={24} color={'currentColor'} />
             @institutolanternaluminosa
           </Link>
           <Link
@@ -51,7 +51,7 @@ const Video = (props) => {
             rel="noopener"
           >
             <span className="sr-only">Instagram</span>
-            <Instagram size={24} color={"currentColor"}/> 
+            <Instagram size={24} color={'currentColor'} />
             @conexoesreaispodcast
           </Link>
         </div>
