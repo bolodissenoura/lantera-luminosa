@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Container from './container';
 import { Disclosure } from '@headlessui/react';
@@ -43,6 +42,11 @@ const faqdata = [
     question: 'Como faço para me voluntariar?',
     answer:
       'Disponibilizamos um formulário no topo do site para entrar em contato, também temos nossas redes sociais.',
+  },
+  {
+    question: 'Onde posso contar minha história?',
+    answer:
+      'Quer contar sua história e inspirar outras mulheres? Acesse o formulário no topo do nosso site! Além disso, você pode entrar em contato através dos números: (41) 9164-1633 e (41) 99830-9091, ou pelas nossas redes sociais! Mal podemos esperar para ouvir você!',
   },
 ];
 

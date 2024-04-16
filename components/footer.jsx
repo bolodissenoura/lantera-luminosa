@@ -17,35 +17,37 @@ export default function Footer() {
     <div className="relative bg-[#EDEDED]">
       <Container>
         <div className="grid max-w-screen-xl grid-cols-1 gap-10 mx-auto mt-5 dark:border-black lg:grid-cols-4">
-          <div className="lg:col-span-2">
-            <div>
-              {' '}
-              <Link
-                href="/"
-                className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100 max-w-max"
-              >
-                <Image
-                  src="/img/logo.png"
-                  alt="N"
-                  width="128"
-                  height="128"
-                  className="w-22"
-                />
-              </Link>
-            </div>
+          <div className="lg:col-span-2 flex items-start">
+            <div className="inline-block flex flex-col items-center">
+              <div>
+                {' '}
+                <Link
+                  href="/"
+                  className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100"
+                >
+                  <Image
+                    src="/img/logo.png"
+                    alt="N"
+                    width="128"
+                    height="128"
+                    className="w-22"
+                  />
+                </Link>
+              </div>
 
-            <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
-              Instituto Lanterna Luminosa
+              <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
+                Instituto Lanterna Luminosa
+              </div>
             </div>
           </div>
 
           <div>
-            <div className="flex flex-col flex-wrap w-full -mt-2 -ml-3 lg:ml-0 transition-colors">
+            <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0 transition-colors">
               {navigation.map((item, index) => (
                 <Link
                   key={index}
                   href={item.href}
-                  className="w-full px-4 py-2 text-gray-500 rounded-md  hover:text-[#1d272a] focus:bg-[#f9f4d1] focus:outline-none max-w-max"
+                  className="w-full px-4 py-2 text-gray-500 rounded-md  hover:text-[#1d272a] focus:bg-[#f9f4d1] focus:outline-none"
                 >
                   {item.label}
                 </Link>
