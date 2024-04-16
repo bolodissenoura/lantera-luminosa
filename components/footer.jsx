@@ -4,8 +4,6 @@ import React from 'react';
 import Container from './container';
 import { Instagram } from './icons/Instagram';
 import { Facebook } from './icons/Facebook';
-import { Twitter } from './icons/Twitter';
-import { Linkedin } from './icons/Linkedin';
 
 export default function Footer() {
   const className = 'flex mt-5 space-x-5 text-gray-400 dark:text-gray-500',
@@ -18,7 +16,7 @@ export default function Footer() {
       <Container>
         <div className="grid max-w-screen-xl grid-cols-1 gap-10 mx-auto mt-5 dark:border-black lg:grid-cols-4">
           <div className="lg:col-span-2 flex items-start">
-            <div className="inline-block flex flex-col items-center">
+            <div className="flex flex-col items-center">
               <div>
                 {' '}
                 <Link

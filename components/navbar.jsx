@@ -15,12 +15,12 @@ const Navbar = () => {
         {/* Logo  */}
         <Disclosure>
           {({ open }) => (
-            <div className="flex flex-wrap items-center justify-between w-full lg:w-auto">
+            <div className="flex flex-wrap items-center justify-between w-full lg:w-auto xl:pl-16">
               <Link href="/">
-                <span className="flex items-center xl:pl-16 text-2xl font-medium text-yellow ">
+                <span className="flex items-center text-2xl font-medium text-yellow">
                   <span>
                     <Image
-                      className="m-4 mt-0 rounded-full shadow  w-[50px] h-[50px] lg:w-[100px] lg:h-[100px]  "
+                      className="m-4 mt-0 rounded-full shadow w-[50px] h-[50px] lg:w-[100px] lg:h-[100px]"
                       src="/img/logo.png"
                       alt="N"
                       width={100}
