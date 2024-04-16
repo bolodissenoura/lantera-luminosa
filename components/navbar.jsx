@@ -21,7 +21,7 @@ const Navbar = () => {
                   <span>
                     <Image
                       className="m-4 mt-0 rounded-full shadow w-[50px] h-[50px] lg:w-[100px] lg:h-[100px]"
-                      src="/img/logo.png"
+                      src="/img/logoWhite.png"
                       alt="N"
                       width={100}
                       height={100}
