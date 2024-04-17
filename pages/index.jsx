@@ -104,6 +104,10 @@ const Home = () => {
         Use this section to highlight your popular customers.
       </SectionTitle>
       <Testimonials />
+      <SectionTitle pretitle="FAQ" title="Perguntas Frequentes">
+        Answer your customers possible questions here.
+      </SectionTitle>
+      <Faq />
       <Cta />
       <Contribuidores />
       <Footer />
