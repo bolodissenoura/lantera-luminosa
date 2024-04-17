@@ -57,7 +57,7 @@ const Home = () => {
       ></SectionTitle>
       <div className="bg-[#EDEDED]">
         <Benefits data={benefitOne} />
-        <Benefits imgPos="right" data={benefitTwo} />
+        <Benefits imgPos="right" data={benefitTwo} fullIcon />
         <Vaquinha />
       </div>
       <SectionTitle pretitle="Watch a video" title="Nossos vídeos:">
