@@ -10,7 +10,14 @@ const benefitOne = {
   bullets: [
     {
       title: "A triste realidade",
-      desc: "O abuso contra mulheres persiste como uma triste realidade, desafiando os esforços para construir uma sociedade justa e igualitária.",
+      desc: (<span>O abuso contra mulheres persiste como uma triste realidade, desafiando os esforços para construir uma sociedade justa e igualitária.
+      <br/><br/>Os dados oficiais sobre a violência são alarmantes:
+      <br/><br/>
+      &nbsp;&nbsp;&nbsp;&nbsp;O Brasil ocupa 5º lugar no ranking mundial de feminicídio (Dados: Alto Comissariado das Nações Unidas para os Direitos Humanos)
+      <br/> <br/>
+      &nbsp;&nbsp;&nbsp;&nbsp;Mais de 18 milhões de mulheres sofreram violência em 2022/em média, vítimas relataram ter sofrido quatro agressões no ano (Dados da quarta edição da Pesquisa Vísivel e Invisível : A Vitimização das Mulheres no Brasil, Realizada pelo Fórum Brasileiro de Segurança Pública)
+      <br/><br/>
+      &nbsp;&nbsp;&nbsp;&nbsp;O Paraná é o 3º estado em casos de feminícidio no Brasil, aponta estudo (Relatório elaborado pelo Universidade Estadual de Londrina (UEL) contabilizou casos de feminícidio consumados e tentados no primeiro semestre de 2023 no Brasil)</span>),
       icon: <FaceFrownIcon />,
     },
     {
