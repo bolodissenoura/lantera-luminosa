@@ -24,13 +24,21 @@ const Cta = () => {
           >
             institutolanternaluminosa@gmail.com
           </Link>
-          <p>Ou contate a presidente pelo WhatsApp:</p>
+          <p>Entre em contato conosco pelo WhatsApp nos seguintes números:</p>
+          <Link
+            href="https://wa.me/+5541998309091"
+            className="text-yellow hover:underline font-bold"
+            target="_blank"
+          >
+          (41) 99830-9091
+          </Link>
+          <span> e </span>
           <Link
             href="https://wa.me/+554191641633"
             className="text-yellow hover:underline font-bold"
             target="_blank"
           >
-            +55 (41) 9164-1633 (Emanoelli)
+          (41) 9164-1633
           </Link>
           <p className="mt-2 font-medium text-yellow text-opacity-90 lg:text-xl">
             Não deixe para depois!
