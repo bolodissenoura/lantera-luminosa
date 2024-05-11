@@ -39,7 +39,7 @@ const Home = () => {
           abusos até o apoio e fortalecimento da mulher que se encontra em uma
           relação abusiva."
         paragraph2="Atuamos de maneira integral, fornecendo suporte essencial em todos os
-          aspectos da vida das mulheres afetadas, incluindo as áreas profissional,
+          aspectos da vida das mulheres afetadas, incluindo as áreas: profissional,
           financeira, jurídica, de segurança, saúde, autoestima, emocional e
           espiritual. Valorizamos uma abordagem humanizada, regida por
           princípios como respeito, ética, solidariedade, proatividade,
@@ -57,7 +57,7 @@ const Home = () => {
       ></SectionTitle>
       <div className="bg-[#EDEDED]">
         <Benefits data={benefitOne} />
-        <Benefits imgPos="right" data={benefitTwo} />
+        <Benefits imgPos="right" data={benefitTwo} fullIcon />
         <Vaquinha />
       </div>
       <SectionTitle pretitle="Watch a video" title="Nossos vídeos:">
