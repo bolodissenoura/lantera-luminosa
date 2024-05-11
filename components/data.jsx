@@ -46,21 +46,21 @@ const benefitTwo = {
     {
       title: "Resiliência Triunfante",
       desc: "A resiliência das mulheres diante do abuso é uma poderosa narrativa de superação, desafiando as sombras dessa triste realidade e construindo um caminho para uma sociedade mais justa e igualitária.",
-      icon: <HeartIcon />,
+      icon: <img src="img/lanternalogo.jpg"/>,
     },
     {
       title: "Ciclo de Transformação",
       desc: "Apesar da violência de gênero persistente, cada mulher é uma força inquebrável, capaz de transformar o ciclo de sofrimento em um ciclo de cura e crescimento.",
-      icon: <HeartIcon />,
+      icon: <img src="img/lanternalogo.jpg"/>,
     },
     {
       title: "Coragem que Inspira",
       desc: "A coragem de denunciar abusos mesmo diante do medo é um testemunho inspirador da força interior das mulheres, ressaltando a necessidade premente de centros de apoio e orientação para encorajar e fortalecer.",
-      icon: <HeartIcon />,
+      icon: <img src="img/lanternalogo.jpg"/>,
     },{
       title: "Autonomia que liberta",
       desc: "O ILL incentiva e auxilia a mulher a alcançar  ou resgatar a autonomia em todas as áreas de sua vida: emocional, intelectual, profissional e financeira.",
-      icon: <HeartIcon />,
+      icon: <img src="img/lanternalogo.jpg"/>,
     },
   ],
 };

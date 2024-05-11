@@ -13,6 +13,11 @@
   .custom-scrollbar-none::-webkit-scrollbar {
     width: 0;
   }
+
+  .benefts-grid {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+  }
 }
 
 img {
