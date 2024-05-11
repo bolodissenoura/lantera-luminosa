@@ -6,7 +6,8 @@ import { useRouter } from 'next/router';
 
 const Navbar = () => {
   const { pathname } = useRouter();
-  const navigation = pathname === "/idealizadora" ? ["Voltar"] : ["Sobre o Instituto"];
+  const navigation =
+    pathname === '/idealizadora' ? ['Voltar'] : ['Sobre o Instituto'];
   const { togglePopup } = usePopupStore();
 
   return (
@@ -20,22 +21,19 @@ const Navbar = () => {
                 <span className="flex items-center text-2xl font-medium text-yellow">
                   <span>
                     <Image
-                      className="m-4 mt-0 rounded-full shadow w-[50px] h-[50px] lg:w-[100px] lg:h-[100px]"
-                      src="/img/logo.png"
+                      className="ml-4  rounded-full w-[200px] h-[200px] lg:w-[250px] lg:h-[250px] lg:ml-0"
+                      src="/img/Logo-Instituto-Lanterna-Luminosa.png"
                       alt="N"
-                      width={100}
-                      height={100}
+                      width={250}
+                      height={250}
                     />
                   </span>
-                  <p className="font-primary text-[14px] md:text-[16px]">
-                    Instituto Lanterna Luminosa
-                  </p>
                 </span>
               </Link>
 
               <Disclosure.Button
                 aria-label="Toggle Menu"
-                className="px-2 py-1 ml-auto lg:hidden text-yellow rounded-md  hover:text-[#f1e37e] focus:text-green focus:bg-[#eee59f] focus:outline-none"
+                className="px-2 py-1 ml-auto lg:hidden text-yellow mr-4 rounded-md  hover:text-[#f1e37e] focus:text-green focus:bg-[#eee59f] focus:outline-none"
               >
                 <svg
                   className="w-6 h-6 fill-current"
