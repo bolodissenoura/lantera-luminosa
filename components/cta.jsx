@@ -8,7 +8,7 @@ const Cta = () => {
 
   return (
     <Container>
-      <div className="flex flex-wrap items-center justify-between w-full max-w-4xl gap-5 mx-auto text-white bg-green px-7 py-7 lg:px-12 lg:py-12 lg:flex-nowrap rounded-xl">
+      <div id='contato' className="flex flex-wrap items-center justify-between w-full max-w-4xl gap-5 mx-auto text-white bg-green px-7 py-7 lg:px-12 lg:py-12 lg:flex-nowrap rounded-xl">
         <div className="flex-grow text-center lg:text-left">
           <h2 className="text-2xl font-medium lg:text-3xl">
             Ainda restam dúvidas? Chame a gente!
@@ -24,13 +24,21 @@ const Cta = () => {
           >
             institutolanternaluminosa@gmail.com
           </Link>
-          <p>Ou contate a presidente pelo WhatsApp:</p>
+          <p>Entre em contato conosco pelo WhatsApp nos seguintes números:</p>
+          <Link
+            href="https://wa.me/+5541998309091"
+            className="text-yellow hover:underline font-bold"
+            target="_blank"
+          >
+          (41) 99830-9091
+          </Link>
+          <span> e </span>
           <Link
             href="https://wa.me/+554191641633"
             className="text-yellow hover:underline font-bold"
             target="_blank"
           >
-            +55 (41) 9164-1633 (Emanoelli)
+          (41) 9164-1633
           </Link>
           <p className="mt-2 font-medium text-yellow text-opacity-90 lg:text-xl">
             Não deixe para depois!

@@ -21,7 +21,7 @@ const Navbar = () => {
                   <span>
                     <Image
                       className="m-4 mt-0 rounded-full shadow w-[50px] h-[50px] lg:w-[100px] lg:h-[100px]"
-                      src="/img/logo.png"
+                      src="/img/logoWhite.png"
                       alt="N"
                       width={100}
                       height={100}
@@ -90,6 +90,12 @@ const Navbar = () => {
                 </Link>
               </li>
             ))}
+            <li className="mr-3 nav__item">
+              <a href="#contato"
+              className="inline-block px-6 py-2 text-lg font-primary text-yellow no-underline rounded-md  hover:text-[#f1e37e] focus:text-green focus:bg-[#eee59f] focus:outline-none ">
+                Contato
+              </a>
+            </li>
           </ul>
           <div className="flex-shrink-0 text-center lg:w-auto">
             <button
