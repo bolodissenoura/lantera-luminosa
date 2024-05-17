@@ -1,19 +1,19 @@
-import Head from "next/head";
-import Hero from "../components/hero";
-import Navbar from "../components/navbar";
-import SectionTitle from "../components/sectionTitle";
+import Head from 'next/head';
+import Hero from '../components/hero';
+import Navbar from '../components/navbar';
+import SectionTitle from '../components/sectionTitle';
 
-import Image from "next/image";
-import Vaquinha from "../components/Vaquinha";
-import Benefits from "../components/benefits";
-import Contribuidores from "../components/contribuidores";
-import Cta from "../components/cta";
-import { benefitOne, benefitTwo } from "../components/data";
-import Faq from "../components/faq";
-import Footer from "../components/footer";
-import PopupWidget from "../components/popupWidget";
-import Testimonials from "../components/testimonials";
-import Video from "../components/video";
+import Image from 'next/image';
+import Vaquinha from '../components/Vaquinha';
+import Benefits from '../components/benefits';
+import Contribuidores from '../components/contribuidores';
+import Cta from '../components/cta';
+import { benefitOne, benefitTwo } from '../components/data';
+import Faq from '../components/faq';
+import Footer from '../components/footer';
+import PopupWidget from '../components/popupWidget';
+import Testimonials from '../components/testimonials';
+import Video from '../components/video';
 
 const Home = () => {
   return (
@@ -65,7 +65,7 @@ const Home = () => {
         Analysts says a landing page with video has 3% more conversion rate. So,
         don&apos;t forget to add one. Just like this.
       </SectionTitle>
-      <Video src="./video/video-institucional.mp4" />
+      <Video src="./video/InstitucionalLanternaLuminosa.mp4" />
       <div className="text-center text-lg">
         Assista mais vídeos em:
         <a
@@ -73,7 +73,7 @@ const Home = () => {
           href="https://www.instagram.com/institutolanternaluminosa/"
           target="_blank"
         >
-          {" "}
+          {' '}
           @lanternaluminosa
         </a>
         ,
@@ -82,8 +82,8 @@ const Home = () => {
           href="https://www.instagram.com/emmaresdesereios/"
           target="_blank"
         >
-          {" "}
-          @emmaresdesereios{" "}
+          {' '}
+          @emmaresdesereios{' '}
         </a>
         e
         <a
@@ -91,7 +91,7 @@ const Home = () => {
           href="https://www.instagram.com/conexoesreaispodcast/"
           target="_blank"
         >
-          {" "}
+          {' '}
           @conexoesreaispodcast
         </a>
         .
