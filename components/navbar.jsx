@@ -6,13 +6,13 @@ import { useRouter } from 'next/router';
 
 const Navbar = () => {
   const { pathname } = useRouter();
-  const navigation = pathname === "/idealizadora" ? ["Voltar"] : ["Sobre o Instituto"];
+  const navigation =
+    pathname === '/idealizadora' ? ['Voltar'] : ['Sobre o Instituto'];
   const { togglePopup } = usePopupStore();
 
   return (
     <div className="w-full bg-green">
       <nav className="container relative flex flex-wrap items-center justify-between mx-auto lg:justify-between pt-8 xl:px-16">
-        {/* Logo  */}
         <Disclosure>
           {({ open }) => (
             <div className="flex flex-wrap items-center justify-between w-full lg:w-auto xl:pl-16">
@@ -21,7 +21,7 @@ const Navbar = () => {
                   <span>
                     <Image
                       className="m-4 mt-0 rounded-full shadow w-[50px] h-[50px] lg:w-[100px] lg:h-[100px]"
-                      src="/img/logoWhite.png"
+                      src="/img/logo.png"
                       alt="N"
                       width={100}
                       height={100}
@@ -91,8 +91,10 @@ const Navbar = () => {
               </li>
             ))}
             <li className="mr-3 nav__item">
-              <a href="#contato"
-              className="inline-block px-6 py-2 text-lg font-primary text-yellow no-underline rounded-md  hover:text-[#f1e37e] focus:text-green focus:bg-[#eee59f] focus:outline-none ">
+              <a
+                href="#contato"
+                className="inline-block px-6 py-2 text-lg font-primary text-yellow no-underline rounded-md  hover:text-[#f1e37e] focus:text-green focus:bg-[#eee59f] focus:outline-none "
+              >
                 Contato
               </a>
             </li>
