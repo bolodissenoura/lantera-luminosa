@@ -13,7 +13,6 @@ const Navbar = () => {
   return (
     <div className="w-full bg-green">
       <nav className="container relative flex flex-wrap items-center justify-between mx-auto lg:justify-between pt-8 xl:px-16">
-        {/* Logo  */}
         <Disclosure>
           {({ open }) => (
             <div className="flex flex-wrap items-center justify-between w-full lg:w-auto xl:pl-16">
@@ -21,8 +20,8 @@ const Navbar = () => {
                 <span className="flex items-center text-2xl font-medium text-yellow">
                   <span>
                     <Image
-                      className="ml-4  rounded-full w-[200px] h-[200px] lg:w-[250px] lg:h-[250px] lg:ml-0"
-                      src="/img/Logo-Instituto-Lanterna-Luminosa.png"
+                      className="ml-4  rounded-full w-[140px] h-[140px] lg:w-[190px] lg:h-[190px] lg:ml-0"
+                      src="/img/logoWhite.png"
                       alt="N"
                       width={250}
                       height={250}
@@ -88,6 +87,14 @@ const Navbar = () => {
                 </Link>
               </li>
             ))}
+            <li className="mr-3 nav__item">
+              <a
+                href="#contato"
+                className="inline-block px-6 py-2 text-lg font-primary text-yellow no-underline rounded-md  hover:text-[#f1e37e] focus:text-green focus:bg-[#eee59f] focus:outline-none "
+              >
+                Contato
+              </a>
+            </li>
           </ul>
           <div className="flex-shrink-0 text-center lg:w-auto">
             <button
@@ -104,3 +111,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+

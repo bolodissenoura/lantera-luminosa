@@ -1,14 +1,17 @@
-import React from 'react';
-import Container from './container';
-import usePopupStore from './popupStore';
-import Link from 'next/link';
+import React from "react";
+import Container from "./container";
+import usePopupStore from "./popupStore";
+import Link from "next/link";
 
 const Cta = () => {
   const { togglePopup } = usePopupStore();
 
   return (
     <Container>
-      <div id='contato' className="flex flex-wrap items-center justify-between w-full max-w-4xl gap-5 mx-auto text-white bg-green px-7 py-7 lg:px-12 lg:py-12 lg:flex-nowrap rounded-xl">
+      <div
+        id="contato"
+        className="flex flex-wrap items-center justify-between w-full max-w-4xl gap-5 mx-auto text-white bg-green px-7 py-7 lg:px-12 lg:py-12 lg:flex-nowrap rounded-xl"
+      >
         <div className="flex-grow text-center lg:text-left">
           <h2 className="text-2xl font-medium lg:text-3xl">
             Ainda restam dúvidas? Chame a gente!
@@ -30,7 +33,7 @@ const Cta = () => {
             className="text-yellow hover:underline font-bold"
             target="_blank"
           >
-          (41) 99830-9091
+            (41) 99830-9091
           </Link>
           <span> e </span>
           <Link
@@ -38,7 +41,7 @@ const Cta = () => {
             className="text-yellow hover:underline font-bold"
             target="_blank"
           >
-          (41) 9164-1633
+            (41) 99164-1633
           </Link>
           <p className="mt-2 font-medium text-yellow text-opacity-90 lg:text-xl">
             Não deixe para depois!
