@@ -1,19 +1,15 @@
-import React from 'react';
-import Container from './container';
-import Link from 'next/link';
-import { Instagram } from './icons/Instagram';
+import React from "react";
+import Container from "./container";
+import Link from "next/link";
+import { Instagram } from "./icons/Instagram";
 
 const Video = (props) => {
   return (
     <Container>
-      <div className="flex gap-5 overflow-x-auto custom-scrollbar-none sm:justify-between sm:gap-0 sm:overflow-visible">
+      <div className="flex gap-5 overflow-x-auto custom-scrollbar-none sm:justify-center sm:gap-0 sm:overflow-visible">
         <iframe
           className="w-[86%] h-[500px] rounded-xl sm:w-[48%]"
           src={props.src}
-        ></iframe>
-        <iframe
-          className="w-[86%] h-[500px] rounded-xl sm:w-[48%]"
-          src={props.src2}
         ></iframe>
       </div>
 
@@ -31,7 +27,7 @@ const Video = (props) => {
             rel="noopener"
           >
             <span className="sr-only">Instagram</span>
-            <Instagram size={24} color={'currentColor'} />
+            <Instagram size={24} color={"currentColor"} />
             @emmaresdesereios
           </Link>
           <Link
@@ -41,7 +37,7 @@ const Video = (props) => {
             rel="noopener"
           >
             <span className="sr-only">Instagram</span>
-            <Instagram size={24} color={'currentColor'} />
+            <Instagram size={24} color={"currentColor"} />
             @institutolanternaluminosa
           </Link>
           <Link
@@ -51,7 +47,7 @@ const Video = (props) => {
             rel="noopener"
           >
             <span className="sr-only">Instagram</span>
-            <Instagram size={24} color={'currentColor'} />
+            <Instagram size={24} color={"currentColor"} />
             @conexoesreaispodcast
           </Link>
         </div>

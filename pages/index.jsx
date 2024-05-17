@@ -1,19 +1,19 @@
-import Head from 'next/head';
-import Hero from '../components/hero';
-import Navbar from '../components/navbar';
-import SectionTitle from '../components/sectionTitle';
+import Head from "next/head";
+import Hero from "../components/hero";
+import Navbar from "../components/navbar";
+import SectionTitle from "../components/sectionTitle";
 
-import Image from 'next/image';
-import Vaquinha from '../components/Vaquinha';
-import Benefits from '../components/benefits';
-import Contribuidores from '../components/contribuidores';
-import Cta from '../components/cta';
-import { benefitOne, benefitTwo } from '../components/data';
-import Faq from '../components/faq';
-import Footer from '../components/footer';
-import PopupWidget from '../components/popupWidget';
-import Testimonials from '../components/testimonials';
-import Video from '../components/video';
+import Image from "next/image";
+import Vaquinha from "../components/Vaquinha";
+import Benefits from "../components/benefits";
+import Contribuidores from "../components/contribuidores";
+import Cta from "../components/cta";
+import { benefitOne, benefitTwo } from "../components/data";
+import Faq from "../components/faq";
+import Footer from "../components/footer";
+import PopupWidget from "../components/popupWidget";
+import Testimonials from "../components/testimonials";
+import Video from "../components/video";
 
 const Home = () => {
   return (
@@ -60,15 +60,12 @@ const Home = () => {
         <Benefits imgPos="right" data={benefitTwo} fullIcon />
         <Vaquinha />
       </div>
-      <SectionTitle pretitle="Watch a video" title="Nossos vídeos:">
+      <SectionTitle pretitle="Watch a video" title="Vídeo institucional:">
         This section is to highlight a promo or demo video of your product.
         Analysts says a landing page with video has 3% more conversion rate. So,
         don&apos;t forget to add one. Just like this.
       </SectionTitle>
-      <Video
-        src="./video/VIDEO-2024-03-17-18-58-16.mp4"
-        src2="./video/VIDEO-2024-03-17-18-44-35.mp4"
-      />
+      <Video src="./video/video-institucional.mp4" />
       <div className="text-center text-lg">
         Assista mais vídeos em:
         <a
@@ -76,7 +73,7 @@ const Home = () => {
           href="https://www.instagram.com/institutolanternaluminosa/"
           target="_blank"
         >
-          {' '}
+          {" "}
           @lanternaluminosa
         </a>
         ,
@@ -85,8 +82,8 @@ const Home = () => {
           href="https://www.instagram.com/emmaresdesereios/"
           target="_blank"
         >
-          {' '}
-          @emmaresdesereios{' '}
+          {" "}
+          @emmaresdesereios{" "}
         </a>
         e
         <a
@@ -94,22 +91,22 @@ const Home = () => {
           href="https://www.instagram.com/conexoesreaispodcast/"
           target="_blank"
         >
-          {' '}
+          {" "}
           @conexoesreaispodcast
         </a>
         .
       </div>
-      <SectionTitle pretitle="Testimonials" title="Depoimentos">
+      {/*<SectionTitle pretitle="Testimonials" title="Depoimentos">
         Testimonails is a great way to increase the brand trust and awareness.
         Use this section to highlight your popular customers.
       </SectionTitle>
-      <Testimonials />
+      <Testimonials />*/}
       <SectionTitle pretitle="FAQ" title="Perguntas Frequentes">
         Answer your customers possible questions here.
       </SectionTitle>
       <Faq />
       <Cta />
-      <Contribuidores />
+      {/*<Contribuidores />*/}
       <Footer />
       <PopupWidget />
     </>
