@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <div className="w-full bg-green">
-      <nav className="container relative flex flex-wrap items-center justify-between mx-auto lg:justify-between pt-8 xl:px-16">
+      <nav className="container relative flex flex-wrap items-center justify-between mx-auto lg:justify-between pt-8 xl:px-16 pb-8">
         <Disclosure>
           {({ open }) => (
             <div className="flex flex-wrap items-center justify-between w-full lg:w-auto xl:pl-16">
@@ -111,4 +111,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
