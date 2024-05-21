@@ -12,7 +12,7 @@ const Vaquinha = () => {
       </p>
       <a
         href=""
-        className="inline-block py-3 text-lg font-primary text-center text-yellow bg-green rounded-lg px-7 lg:px-5 lg:py-3 "
+        className="inline-block py-3 text-lg font-primary text-center text-yellow bg-green rounded-lg px-7 lg:px-5 lg:py-3"
       >
         Acesse clicando aqui!
       </a>
