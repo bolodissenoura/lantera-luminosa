@@ -21,7 +21,7 @@ const Cta = () => {
         </p>
         <Link
           href="mailto:institutolanternaluminosa@gmail.com"
-          className="text-yellow hover:underline font-bold text-3xl"
+          className="text-yellow hover:underline text-sm sm:font-bold sm:text-2xl lg:text-3xl"
           target="_blank"
         >
           institutolanternaluminosa@gmail.com
@@ -29,18 +29,18 @@ const Cta = () => {
         <p className="font-medium text-white text-opacity-90 lg:text-2xl">
           Entre em contato conosco pelo WhatsApp nos seguintes números:
         </p>
-        <div className="flex gap-8 justify-center">
+        <div className="flex flex-col lg:flex-row gap-8 justify-center w-full">
           {' '}
           <Link
             href="https://wa.me/+5541998309091"
-            className="inline-block py-3 text-lg font-primary text-center text-green bg-yellow rounded-lg px-7 lg:px-5 lg:py-3 hover:underline font-bold"
+            className="inline-block py-3 text-lg w-full font-primary text-center text-green bg-yellow rounded-lg px-7 lg:px-5 lg:py-3 hover:underline font-bold"
             target="_blank"
           >
             (41) 99830-9091
           </Link>
           <Link
             href="https://wa.me/+554191641633"
-            className="inline-block py-3 text-lg font-primary text-center text-green bg-yellow rounded-lg px-7 lg:px-5 lg:py-3 hover:underline font-bold"
+            className="inline-block py-3 text-lg font-primary text-center text-green bg-yellow rounded-lg px-7 lg:px-5 lg:py-3 w-full hover:underline font-bold"
             target="_blank"
           >
             (41) 99164-1633
