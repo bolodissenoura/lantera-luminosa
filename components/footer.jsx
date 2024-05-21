@@ -12,9 +12,9 @@ export default function Footer() {
       { label: 'Idealizadora', href: '/idealizadora' },
     ];
   return (
-    <div className="relative bg-[#EDEDED]">
+    <footer className="relative bg-[#EDEDED]">
       <Container>
-        <div className="grid max-w-screen-xl grid-cols-1 gap-10 mx-auto mt-5 dark:border-black lg:grid-cols-4">
+        <div className="grid max-w-screen-xl lg:text-left items-center justify-center text-center align-middle gap-10 mx-auto mt-5 dark:border-black lg:grid-cols-4">
           <div className="lg:col-span-2 flex items-start">
             <div className="flex flex-col items-center">
               <div>
@@ -40,7 +40,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0 transition-colors">
+            <div className="flex flex-wrap w-full -mt-2 lg:ml-0 transition-colors">
               {navigation.map((item, index) => (
                 <Link
                   key={index}
@@ -54,7 +54,7 @@ export default function Footer() {
           </div>
           <div className="">
             <div>Redes Sociais</div>
-            <div className="flex mt-5 space-x-5 text-gray-400 dark:text-gray-500">
+            <div className="flex justify-center lg:justify-start mt-5 space-x-5 text-gray-400 dark:text-gray-500">
               <a
                 href="https://www.facebook.com/institutolanternaluminosa"
                 target="_blank"
@@ -81,6 +81,6 @@ export default function Footer() {
           Copyright © {new Date().getFullYear()}. Instituto Lanterna Luminosa
         </div>
       </Container>
-    </div>
+    </footer>
   );
 }
