@@ -6,11 +6,11 @@ import { Instagram } from './icons/Instagram';
 const Video = (props) => {
   return (
     <Container>
-      <div className="flex gap-5 overflow-x-auto custom-scrollbar-none sm:justify-center sm:gap-0 sm:overflow-visible">
+      <div className="flex gap-5 overflow-x-auto custom-scrollbar-none justify-center sm:gap-0 sm:overflow-visible">
         <video
           controls
           autoPlay={false}
-          className="w-[86%] h-[500px] rounded-xl sm:w-[48%]"
+          className="lg:w-[86%] lg:h-[500px] rounded-xl "
           src={props.src}
         ></video>
       </div>
@@ -23,16 +23,6 @@ const Video = (props) => {
         </div>
         <div className="font-medium text-white lg:text-base">
           <Link
-            href="https://www.instagram.com/emmaresdesereios/"
-            target="_blank"
-            className="mt-2 mb-4 flex flex-row gap-2 hover:text-zinc-300 transition-colors"
-            rel="noopener"
-          >
-            <span className="sr-only">Instagram</span>
-            <Instagram size={24} color={'currentColor'} />
-            @emmaresdesereios
-          </Link>
-          <Link
             href="https://www.instagram.com/institutolanternaluminosa/"
             target="_blank"
             className="mt-2 mb-4 flex flex-row gap-2 hover:text-zinc-300 transition-colors"
@@ -41,6 +31,16 @@ const Video = (props) => {
             <span className="sr-only">Instagram</span>
             <Instagram size={24} color={'currentColor'} />
             @institutolanternaluminosa
+          </Link>
+          <Link
+            href="https://www.instagram.com/emmaresdesereios/"
+            target="_blank"
+            className="mt-2 mb-4 flex flex-row gap-2 hover:text-zinc-300 transition-colors"
+            rel="noopener"
+          >
+            <span className="sr-only">Instagram</span>
+            <Instagram size={24} color={'currentColor'} />
+            @emmaresdesereios
           </Link>
           <Link
             href="https://www.instagram.com/conexoesreaispodcast/"

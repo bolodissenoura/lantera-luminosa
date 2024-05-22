@@ -2,7 +2,6 @@ import Head from 'next/head';
 import Hero from '../components/hero';
 import Navbar from '../components/navbar';
 import SectionTitle from '../components/sectionTitle';
-
 import Image from 'next/image';
 import Vaquinha from '../components/Vaquinha';
 import Benefits from '../components/benefits';
@@ -14,6 +13,7 @@ import Footer from '../components/footer';
 import PopupWidget from '../components/popupWidget';
 import Testimonials from '../components/testimonials';
 import Video from '../components/video';
+import Events from '../components/events';
 
 const Home = () => {
   return (
@@ -66,36 +66,6 @@ const Home = () => {
         don&apos;t forget to add one. Just like this.
       </SectionTitle>
       <Video src="./video/InstitucionalLanternaLuminosa.mp4" />
-      <div className="text-center text-lg">
-        Assista mais vídeos em:
-        <a
-          className="text-blue-400 font-semibold hover:font-bold"
-          href="https://www.instagram.com/institutolanternaluminosa/"
-          target="_blank"
-        >
-          {' '}
-          @lanternaluminosa
-        </a>
-        ,
-        <a
-          className="text-blue-400 font-semibold hover:font-bold"
-          href="https://www.instagram.com/emmaresdesereios/"
-          target="_blank"
-        >
-          {' '}
-          @emmaresdesereios{' '}
-        </a>
-        e
-        <a
-          className="text-blue-400 font-semibold hover:font-bold"
-          href="https://www.instagram.com/conexoesreaispodcast/"
-          target="_blank"
-        >
-          {' '}
-          @conexoesreaispodcast
-        </a>
-        .
-      </div>
       {/*<SectionTitle pretitle="Testimonials" title="Depoimentos">
         Testimonails is a great way to increase the brand trust and awareness.
         Use this section to highlight your popular customers.
@@ -107,6 +77,7 @@ const Home = () => {
       <Faq />
       <Cta />
       {/*<Contribuidores />*/}
+      <Events />
       <Footer />
       <PopupWidget />
     </>
