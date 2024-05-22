@@ -17,7 +17,7 @@ const Hero = () => {
     window.scrollTo({ top: targetPosition, behavior: 'smooth' });
   };
   return (
-    <div className="w-full bg-green pt-12 ">
+    <div className="w-full bg-green pt-4">
       <Container className="flex flex-wrap">
         <div className="flex  w-full lg:w-1/2 justify-center text-center">
           <div className="flex flex-col max-w-3xl xl:pl-40  mb-8 items-center justify-center text-center">
