@@ -1,4 +1,4 @@
-import { HeartIcon, FaceFrownIcon } from '@heroicons/react/24/solid';
+import { FaceFrownIcon } from '@heroicons/react/24/solid';
 
 import benefitOneImg from '../public/img/dataphoto1.jpg';
 import benefitTwoImg from '../public/img/dataphoto2.jpg';
